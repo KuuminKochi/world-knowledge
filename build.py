@@ -21,7 +21,12 @@ WIKIS_DIR = Path(os.environ.get("WIKIS_DIR", "./wikis"))
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "./site"))
 TEMPLATE_DIR = Path("./templates")
 ASSETS_DIR = Path("./assets")
-SITE_URL = os.environ.get("SITE_URL", "https://example.com")
+SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
+if not SITE_URL:
+    # Auto-detect from Cloudflare Pages or default
+    SITE_URL = os.environ.get("CF_PAGES_URL", "https://example.com")
+    if not SITE_URL.startswith("http"):
+        SITE_URL = f"https://{SITE_URL}"
 
 # ── Markdown setup ──────────────────────────────────────────────────────
 
