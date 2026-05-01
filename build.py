@@ -182,6 +182,28 @@ def build_wiki(wiki_dir: Path, slug_map: dict[str, str], templates: Environment,
 
     page_template = templates.get_template("page.html")
 
+    # Generate wiki index page
+    index_file = wiki_dir / "index.md"
+    if index_file.exists():
+        raw = index_file.read_text(encoding="utf-8")
+        frontmatter, body = strip_frontmatter(raw)
+        processed = process_markdown(body, slug_map, wiki_slug)
+        html_content = md.render(processed)
+
+        index_dir = OUTPUT_DIR / wiki_slug
+        index_dir.mkdir(parents=True, exist_ok=True)
+
+        html = page_template.render(
+            title=wiki_meta["title"],
+            content=html_content,
+            section="index",
+            wiki_slug=wiki_slug,
+            wiki_title=wiki_meta["title"],
+            frontmatter=frontmatter,
+            site_url=site_url,
+        )
+        (index_dir / "index.html").write_text(html, encoding="utf-8")
+
     for page in pages:
         page_dir = OUTPUT_DIR / page["url_path"]
         page_dir.mkdir(parents=True, exist_ok=True)
@@ -208,6 +230,11 @@ def generate_sitemap(wiki_dirs: list[dict], site_url: str) -> str:
   </url>"""]
 
     for wiki in wiki_dirs:
+        # Wiki index page
+        urls.append(f"""  <url>
+    <loc>{site_url}/{wiki['meta']['slug']}/</loc>
+    <changefreq>monthly</changefreq>
+  </url>""")
         for page in wiki["pages"]:
             urls.append(f"""  <url>
     <loc>{site_url}/{page['url_path']}</loc>
