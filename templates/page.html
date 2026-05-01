@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} — {{ wiki_title }} — World Knowledge</title>
+    <title>{% if title != wiki_title %}{{ title }} — {% endif %}{{ wiki_title }} — World Knowledge</title>
 
     <!-- Fonts: Crimson Pro (scholarly serif) + JetBrains Mono (code) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
