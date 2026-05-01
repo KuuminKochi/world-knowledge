@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} — World Knowledge</title>
+
+    <!-- Fonts: Crimson Pro (scholarly serif) + JetBrains Mono (code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+            onload="renderMathInElement(document.body, {
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false}
+                ],
+                throwOnError: false
+            });"></script>
+
+    <!-- MathJax fallback -->
+    <script>
+    window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] },
+        options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'code'] },
+        startup: { pageReady: () => MathJax.startup.defaultPageReady().catch(() => {}) }
+    };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Mermaid -->
+    <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: 'default', securityLevel: 'loose' });
+    </script>
+
+    <!-- SMILES Drawer -->
+    <script src="https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js"></script>
+
+    <link rel="stylesheet" href="{{ site_url }}/assets/css/style.css">
+</head>
+<body>
+    <div class="page-grid">
+        <header>
+            <nav aria-label="Breadcrumb">
+                <a href="{{ site_url }}/" class="nav-home">WK</a>
+                <span class="nav-sep" aria-hidden="true">/</span>
+                <span class="nav-section">{{ section }}</span>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <header class="article-header">
+                    <span class="article-section">{{ section }}</span>
+                    <h1>{{ title }}</h1>
+                </header>
+                <div class="article-body">
+                    {{ content }}
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <div class="footer-rule"></div>
+            <p>World Knowledge</p>
+        </footer>
+    </div>
+
+    <script>
+    document.querySelectorAll('pre > code.language-smiles, code.language-smiles').forEach(block => {
+        const pre = block.closest('pre') || block;
+        const smiles = block.textContent.trim();
+        const canvas = document.createElement('canvas');
+        canvas.width = 500;
+        canvas.height = 300;
+        canvas.className = 'smiles-canvas';
+        try {
+            let drawer = new SmilesDrawer.Drawer({ width: 500, height: 300 });
+            SmilesDrawer.parse(smiles, tree => drawer.draw(tree, canvas, 'light'), err => console.error(err));
+            pre.replaceWith(canvas);
+        } catch(e) {}
+    });
+    </script>
+</body>
+</html>

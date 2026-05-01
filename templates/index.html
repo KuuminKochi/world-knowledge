@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Knowledge — AI-Navigable Knowledge Base</title>
+    <meta name="description" content="An open, public, AI-navigable knowledge base. Concepts, sources, and tutorials for pre-university mathematics, physics, and chemistry.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ site_url }}/assets/css/style.css">
+</head>
+<body>
+    <div class="page-grid">
+        <header>
+            <nav aria-label="Breadcrumb">
+                <a href="{{ site_url }}/" class="nav-home">WK</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1>World Knowledge</h1>
+                <p class="hero-rule" aria-hidden="true"></p>
+                <p class="hero-subtitle">An AI-navigable knowledge base.</p>
+            </section>
+
+            <section class="metadata-card" aria-label="Site metadata">
+                <h2>At a Glance</h2>
+                <div class="metadata-grid">
+                    <div class="metadata-item">
+                        <span class="metadata-value">{{ stats.concept_count }}</span>
+                        <span class="metadata-label">Concepts</span>
+                    </div>
+                    <div class="metadata-item">
+                        <span class="metadata-value">{{ stats.source_count }}</span>
+                        <span class="metadata-label">Sources</span>
+                    </div>
+                    <div class="metadata-item">
+                        <span class="metadata-value">{{ stats.entity_count }}</span>
+                        <span class="metadata-label">Tutorials</span>
+                    </div>
+                    <div class="metadata-item">
+                        <span class="metadata-value">{{ stats.total_count }}</span>
+                        <span class="metadata-label">Total Pages</span>
+                    </div>
+                </div>
+                <div class="metadata-footer">
+                    <span>Last updated: {{ stats.last_updated }}</span>
+                    <span class="metadata-sep">·</span>
+                    <span>Navigation: concept-first, follow links</span>
+                </div>
+            </section>
+
+            <section class="content">
+                {{ content }}
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-rule"></div>
+            <p>World Knowledge</p>
+        </footer>
+    </div>
+</body>
+</html>
