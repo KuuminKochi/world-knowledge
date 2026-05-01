@@ -120,7 +120,7 @@ def collect_pages(wiki_dir: Path, slug_map: dict[str, str]) -> list[dict]:
             processed = process_markdown(body, slug_map)
             html_content = md.render(processed)
 
-            url_path = f"/{section}/{slug}/"
+            url_path = f"{section}/{slug}/"
 
             pages.append({
                 "title": frontmatter.get("title", title),
@@ -171,7 +171,7 @@ def generate_sitemap(pages: list[dict], site_url: str) -> str:
     urls = []
     for page in pages:
         urls.append(f"""  <url>
-    <loc>{site_url}{page['url_path']}</loc>
+    <loc>{site_url}/{page['url_path']}</loc>
     <changefreq>monthly</changefreq>
   </url>""")
 
