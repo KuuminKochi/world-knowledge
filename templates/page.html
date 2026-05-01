@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} — World Knowledge</title>
+    <title>{{ title }} — {{ wiki_title }} — World Knowledge</title>
 
     <!-- Fonts: Crimson Pro (scholarly serif) + JetBrains Mono (code) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,6 +49,8 @@
             <nav aria-label="Breadcrumb">
                 <a href="{{ site_url }}/" class="nav-home">WK</a>
                 <span class="nav-sep" aria-hidden="true">/</span>
+                <a href="{{ site_url }}/{{ wiki_slug }}/" class="nav-wiki">{{ wiki_title }}</a>
+                <span class="nav-sep" aria-hidden="true">/</span>
                 <span class="nav-section">{{ section }}</span>
             </nav>
         </header>
@@ -67,7 +69,7 @@
 
         <footer>
             <div class="footer-rule"></div>
-            <p>World Knowledge</p>
+            <p><a href="{{ site_url }}/">World Knowledge</a></p>
         </footer>
     </div>
 

@@ -1,11 +1,17 @@
 ---
-title: Wiki Index
+title: PASUM Mathematics, Physics & Chemistry
+description: Pre-university (Matriculation) lecture notes, tutorials, and concept explanations for Mathematics, Physics, and Chemistry at Universiti Malaya PASUM.
 date: 2026-04-30
 tags:
-  - meta/index
+  - subject/mathematics
+  - subject/physics
+  - subject/chemistry
+  - level/pre-university
+  - institution/pasum
+author: KuuminKochi
 ---
 
-# Wiki Index
+# PASUM Mathematics, Physics & Chemistry
 
 ## Courses
 

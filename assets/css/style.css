@@ -371,6 +371,58 @@ footer p {
     margin-top: 2rem;
 }
 
+/* ── Wiki Directory ────────────────────────────────── */
+
+.wiki-directory {
+    margin-bottom: 3rem;
+}
+
+.wiki-directory h2 {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 1.25rem;
+}
+
+.wiki-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wiki-entry {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.wiki-entry:first-child {
+    border-top: 1px solid var(--border-light);
+}
+
+.wiki-link {
+    font-size: 1.15rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.35rem;
+}
+
+.wiki-desc {
+    font-size: 0.92rem;
+    color: var(--muted);
+    margin-bottom: 0.25rem;
+    line-height: 1.5;
+}
+
+.wiki-author {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+}
+
 /* ── Responsive ────────────────────────────────────── */
 
 @media (max-width: 600px) {
