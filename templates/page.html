@@ -48,8 +48,10 @@
         <header>
             <nav aria-label="Breadcrumb">
                 <a href="{{ site_url }}/" class="nav-home">WK</a>
+                {% if wiki_slug %}
                 <span class="nav-sep" aria-hidden="true">/</span>
                 <a href="{{ site_url }}/{{ wiki_slug }}/" class="nav-wiki">{{ wiki_title }}</a>
+                {% endif %}
                 <span class="nav-sep" aria-hidden="true">/</span>
                 <span class="nav-section">{{ section }}</span>
             </nav>

@@ -280,6 +280,29 @@ def build_site():
         all_pages.extend(pages)
         print(f"  Built {wiki_dir.name}: {len(pages)} pages")
 
+    # Build AI navigation guide if exists
+    ai_file = WIKIS_DIR / "ai.md"
+    if ai_file.exists():
+        raw = ai_file.read_text(encoding="utf-8")
+        frontmatter, body = strip_frontmatter(raw)
+        processed = process_markdown(body, slug_map, "")
+        html_content = md.render(processed)
+        
+        page_template = env.get_template("page.html")
+        html = page_template.render(
+            title=frontmatter.get("title", "AI Navigation Guide"),
+            content=html_content,
+            section="guide",
+            wiki_slug="",
+            wiki_title="World Knowledge",
+            frontmatter=frontmatter,
+            site_url=SITE_URL,
+        )
+        ai_dir = OUTPUT_DIR / "ai"
+        ai_dir.mkdir(parents=True, exist_ok=True)
+        (ai_dir / "index.html").write_text(html, encoding="utf-8")
+        print("  Built /ai/ navigation guide")
+
     # Generate homepage
     index_html = index_template.render(
         wikis=[w["meta"] for w in all_wikis],
@@ -291,6 +314,12 @@ def build_site():
 
     # Generate sitemap
     sitemap = generate_sitemap(all_wikis, SITE_URL)
+    if ai_file.exists():
+        sitemap = sitemap.replace("</urlset>", f"""  <url>
+    <loc>{SITE_URL}/ai/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>""")
     (OUTPUT_DIR / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     print(f"  Generated sitemap.xml with {len(all_pages) + 1} URLs")
 
