@@ -1,4 +1,25 @@
-site/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
 __pycache__/
 *.pyc
+.venv/
+venv/
+
+# Build
+site/
+
+# Environment
 .env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

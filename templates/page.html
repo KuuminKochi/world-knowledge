@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if title != wiki_title %}{{ title }} — {% endif %}{{ wiki_title }} — World Knowledge</title>
+    <meta name="description" content="{% if frontmatter.description %}{{ frontmatter.description }}{% else %}{{ title }} — a wiki page in {{ wiki_title }}{% endif %}">
+    <!-- Open Graph -->
+    <meta property="og:title" content="{% if title != wiki_title %}{{ title }} — {% endif %}{{ wiki_title }}">
+    <meta property="og:description" content="{% if frontmatter.description %}{{ frontmatter.description }}{% else %}{{ title }} — a wiki page in {{ wiki_title }}{% endif %}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ site_url }}/{{ url_path }}">
+    <meta property="og:site_name" content="World Knowledge">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% if title != wiki_title %}{{ title }} — {% endif %}{{ wiki_title }}">
+    <meta name="twitter:description" content="{% if frontmatter.description %}{{ frontmatter.description }}{% else %}{{ title }} — a wiki page in {{ wiki_title }}{% endif %}">
+    <link rel="canonical" href="{{ site_url }}/{{ url_path }}">
+    <link rel="sitemap" type="application/xml" href="{{ site_url }}/sitemap.xml">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
 
     <!-- Fonts: Crimson Pro (scholarly serif) + JetBrains Mono (code) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,9 +26,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
     <!-- KaTeX -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
             onload="renderMathInElement(document.body, {
                 delimiters: [
                     {left: '$$', right: '$$', display: true},
@@ -31,20 +45,21 @@
         startup: { pageReady: () => MathJax.startup.defaultPageReady().catch(() => {}) }
     };
     </script>
-    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" crossorigin="anonymous"></script>
 
     <!-- Mermaid -->
     <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true, theme: 'default', securityLevel: 'loose' });
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral', securityLevel: 'strict' });
     </script>
 
     <!-- SMILES Drawer -->
-    <script src="https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js"></script>
+    <script src="https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="{{ site_url }}/assets/css/style.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <div class="page-grid">
         <header>
             <nav aria-label="Breadcrumb">
@@ -58,7 +73,7 @@
             </nav>
         </header>
 
-        <main>
+        <main id="main-content">
             <article>
                 <header class="article-header">
                     <span class="article-section">{{ section }}</span>
@@ -86,7 +101,8 @@
         canvas.className = 'smiles-canvas';
         try {
             let drawer = new SmilesDrawer.Drawer({ width: 500, height: 300 });
-            SmilesDrawer.parse(smiles, tree => drawer.draw(tree, canvas, 'light'), err => console.error(err));
+            let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            SmilesDrawer.parse(smiles, tree => drawer.draw(tree, canvas, theme), err => console.error(err));
             pre.replaceWith(canvas);
         } catch(e) {}
     });
