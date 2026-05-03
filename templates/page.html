@@ -156,7 +156,6 @@
     </div>
 
     <script>
-    var smilesDrawer = new SmilesDrawer({ width: 500, height: 200 });
     document.querySelectorAll('pre > code.language-smiles, code.language-smiles').forEach(function(block) {
         var pre = block.closest('pre') || block;
         var smiles = block.textContent.trim();
@@ -165,10 +164,13 @@
         canvas.width = 500;
         canvas.height = 200;
         canvas.className = 'smiles-canvas';
-        smilesDrawer.draw(smiles, canvas, 'light',
-            function() { pre.replaceWith(canvas); },
-            function(err) { console.error('SMILES draw error:', smiles, err); }
-        );
+        SmilesDrawer.parse(smiles, function(tree) {
+            var drawer = new SmilesDrawer.Drawer({ width: 500, height: 200 });
+            drawer.draw(tree, canvas, 'light');
+            pre.replaceWith(canvas);
+        }, function(err) {
+            console.error('SMILES parse error:', smiles, err);
+        });
     });
     </script>
 </body>
