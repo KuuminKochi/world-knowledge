@@ -98,63 +98,211 @@ Core knowledge units organized by subject.
 
 Lecture notes and course materials organized by course.
 
-### FAD1014 — Mathematics II (17 lectures + 1 DE supplement)
+### FAD1014 — Mathematics II
 
-**Integration:** [[FAD1014 L1-L2 — Integration (Anti-Derivative)]], [[FAD1014 L3-L4 — Integration by Substitution]], [[FAD1014 L5-L6 — Integration by Parts]], [[FAD1014 L7-L8 — Trigonometric Integrals]], [[FAD1014 L9-L10 — Trigonometric Substitution]], [[FAD1014 L11-L12 — Area Under Curves]], [[FAD1014 L13 — Volume of Solids of Revolution]], [[FAD1014 L14 — Volume (Area Between Curves)]], [[FAD1014 L20 — Improper Integrals]]
+**Integration:**
+- [[FAD1014 L1-L2 — Integration (Anti-Derivative)]]
+- [[FAD1014 L3-L4 — Integration by Substitution]]
+- [[FAD1014 L5-L6 — Integration by Parts]]
+- [[FAD1014 L7-L8 — Trigonometric Integrals]]
+- [[FAD1014 L9-L10 — Trigonometric Substitution]]
+- [[FAD1014 L11-L12 — Area Under Curves]]
+- [[FAD1014 L13 — Volume of Solids of Revolution]]
+- [[FAD1014 L14 — Volume (Area Between Curves)]]
+- [[FAD1014 L20 — Improper Integrals]]
 
-**Differential Equations:** [[FAD1014 L15-L16 — Differential Equations (Separable)]], [[Application of DE - Mixing Problems]], [[Bernoulli Differential Equation]], [[Exact Differential Equation]], [[Non-Homogeneous DE (Linearly Dependent)]], [[Non-Homogeneous DE (Linearly Independent)]]
+**Differential Equations:**
+- [[FAD1014 L15-L16 — Differential Equations (Separable)]]
+- [[Application of DE - Mixing Problems]]
+- [[Bernoulli Differential Equation]]
+- [[Exact Differential Equation]]
+- [[Non-Homogeneous DE (Linearly Dependent)]]
+- [[Non-Homogeneous DE (Linearly Independent)]]
 
-**Series & Binomial:** [[FAD1014 L21 — Introduction to Series]], [[FAD1014 L22 — Finite Series and Summation]], [[FAD1014 L23-L24 — Binomial Expansion]], [[FAD1014 L25-L26 — Power Series, Taylor & Maclaurin]]
+**Series & Binomial:**
+- [[FAD1014 L21 — Introduction to Series]]
+- [[FAD1014 L22 — Finite Series and Summation]]
+- [[FAD1014 L23-L24 — Binomial Expansion]]
+- [[FAD1014 L25-L26 — Power Series, Taylor & Maclaurin]]
 
-**Geometry:** [[FAD1014 L27-L28 — Geometry I (Circle & Parabola)]], [[FAD1014 L29-L30 — Geometry (Ellipse)]], [[L31-L32 Hyperbola]]
+**Geometry:**
+- [[FAD1014 L27-L28 — Geometry I (Circle & Parabola)]]
+- [[FAD1014 L29-L30 — Geometry (Ellipse)]]
+- [[L31-L32 Hyperbola]]
 
-**Tutorials:** [[FAD1014 Tutorial 1 — Indefinite Integrals]], [[FAD1014 Tutorial 2 — Integration by Parts]], [[FAD1014 Tutorial 3 — Trigonometric Integrals]], [[FAD1014 Tutorial 4 — Trigonometric Substitution]], [[FAD1014 Tutorial 5 — Area Enclosed by Curves]], [[FAD1014 Tutorial 6 — Volume of Solids of Revolution]], [[FAD1014 Tutorial 7 — Differential Equations]], [[FAD1014 Tutorial 10 — First-Order Linear DEs]], [[FAD1014 Tutorial 11 — Binomial Theorem]], [[FAD1014 Tutorial 12 — Taylor & Maclaurin Series]], [[FAD1014 Tutorial 13 - Circle, Parabola, Ellipse]]
+**Tutorials:**
+- [[FAD1014 Tutorial 1 — Indefinite Integrals]]
+- [[FAD1014 Tutorial 2 — Integration by Parts]]
+- [[FAD1014 Tutorial 3 — Trigonometric Integrals]]
+- [[FAD1014 Tutorial 4 — Trigonometric Substitution]]
+- [[FAD1014 Tutorial 5 — Area Enclosed by Curves]]
+- [[FAD1014 Tutorial 6 — Volume of Solids of Revolution]]
+- [[FAD1014 Tutorial 7 — Differential Equations]]
+- [[FAD1014 Tutorial 10 — First-Order Linear DEs]]
+- [[FAD1014 Tutorial 11 — Binomial Theorem]]
+- [[FAD1014 Tutorial 12 — Taylor & Maclaurin Series]]
+- [[FAD1014 Tutorial 13 - Circle, Parabola, Ellipse]]
 
-### FAD1015 — Mathematics III (17 lectures + 3 finals)
+### FAD1015 — Mathematics III
 
-**Probability:** [[FAD1015 Week 1 — Counting Rules & Permutation]], [[FAD1015 Week 2 — Mutually Exclusive & Conditional Probability]], [[FAD1015 Week 3 — Independent Events & Bayes' Theorem]]
+**Probability:**
+- [[FAD1015 Week 1 — Counting Rules & Permutation]]
+- [[FAD1015 Week 2 — Mutually Exclusive & Conditional Probability]]
+- [[FAD1015 Week 3 — Independent Events & Bayes' Theorem]]
 
-**Distributions:** [[FAD1015 Week 4 — Discrete Random Variables (PDF & CDF)]], [[FAD1015 Week 5 — Mean & Variance (Discrete & Continuous)]], [[FAD1015 Week 6 — Continuous Random Variables]], [[FAD1015 L13 — Binomial Distribution]], [[FAD1015 L14 — Poisson Distribution]], [[FAD1015 L15-L16 — Normal Distribution & Approximation]], [[FAD1015 L17-L18 — Uniform & Exponential Distributions + R Intro]]
+**Distributions:**
+- [[FAD1015 Week 4 — Discrete Random Variables (PDF & CDF)]]
+- [[FAD1015 Week 5 — Mean & Variance (Discrete & Continuous)]]
+- [[FAD1015 Week 6 — Continuous Random Variables]]
+- [[FAD1015 L13 — Binomial Distribution]]
+- [[FAD1015 L14 — Poisson Distribution]]
+- [[FAD1015 L15-L16 — Normal Distribution & Approximation]]
+- [[FAD1015 L17-L18 — Uniform & Exponential Distributions + R Intro]]
 
-**Inference:** [[FAD1015 L19 — Input Data & Descriptive Statistics in R]], [[FAD1015 L20 — Sampling Distribution of the Mean]], [[FAD1015 L21-L22 — Estimation of Population Mean]], [[FAD1015 L23-L24 — Hypothesis Testing About the Mean]], [[FAD1015 L25-L26 — Hypothesis Testing in R]]
+**Inference:**
+- [[FAD1015 L19 — Input Data & Descriptive Statistics in R]]
+- [[FAD1015 L20 — Sampling Distribution of the Mean]]
+- [[FAD1015 L21-L22 — Estimation of Population Mean]]
+- [[FAD1015 L23-L24 — Hypothesis Testing About the Mean]]
+- [[FAD1015 L25-L26 — Hypothesis Testing in R]]
 
-**Matrices:** [[FAD1015 L27-L28 — Matrices (Types & Operations)]], [[FAD1015 L29-L30 — Matrices (Inverse & Systems of Equations)]]
+**Matrices:**
+- [[FAD1015 L27-L28 — Matrices (Types & Operations)]]
+- [[FAD1015 L29-L30 — Matrices (Inverse & Systems of Equations)]]
 
-**Past Year Finals:** [[FAD1015 Final 2023-2024]], [[FAD1015 Final 2024-2025]]
+**Past Year Finals:**
+- [[FAD1015 Final 2023-2024]]
+- [[FAD1015 Final 2024-2025]]
 
-**Tutorials:** [[FAD1015 Tutorial 1 — Counting and Permutation]], [[FAD1015 Tutorial 2 — Combination]], [[FAD1015 Tutorial 3 — Probability and Mutually Exclusive Events]], [[FAD1015 Tutorial 4 — Conditional Probability and Bayes Theorem]], [[FAD1015 Tutorial 5 — Discrete Random Variables]], [[FAD1015 Tutorial 6 — Expected Value, Variance, and Continuous Random Variables]], [[FAD1015 Tutorial 7 — Normal Distribution]], [[FAD1015 Tutorial 8 — Uniform & Exponential Distributions]], [[FAD1015 Tutorial 9 — Sampling and Sampling Distributions]], [[FAD1015 Tutorial 10 — Estimation of the Population Mean]], [[FAD1015 Tutorial 11 — Hypothesis Testing About the Mean]], [[FAD1015 Tutorial 12 — Hypothesis Testing in R]], [[FAD1015 Tutorial 13 — Matrices]], [[FAD1015 Tutorial 1-6 — Counting & Probability Fundamentals]]
+**Tutorials:**
+- [[FAD1015 Tutorial 1 — Counting and Permutation]]
+- [[FAD1015 Tutorial 2 — Combination]]
+- [[FAD1015 Tutorial 3 — Probability and Mutually Exclusive Events]]
+- [[FAD1015 Tutorial 4 — Conditional Probability and Bayes Theorem]]
+- [[FAD1015 Tutorial 5 — Discrete Random Variables]]
+- [[FAD1015 Tutorial 6 — Expected Value, Variance, and Continuous Random Variables]]
+- [[FAD1015 Tutorial 7 — Normal Distribution]]
+- [[FAD1015 Tutorial 8 — Uniform & Exponential Distributions]]
+- [[FAD1015 Tutorial 9 — Sampling and Sampling Distributions]]
+- [[FAD1015 Tutorial 10 — Estimation of the Population Mean]]
+- [[FAD1015 Tutorial 11 — Hypothesis Testing About the Mean]]
+- [[FAD1015 Tutorial 12 — Hypothesis Testing in R]]
+- [[FAD1015 Tutorial 13 — Matrices]]
+- [[FAD1015 Tutorial 1-6 — Counting & Probability Fundamentals]]
 
-### FAD1018 — Basic Chemistry II (18 lectures + 5 finals)
+### FAD1018 — Basic Chemistry II
 
-**Physical Chemistry:** [[FAD1018 W1 — Chemical Equilibrium]], [[FAD1018 W2-W3 — Ionic Equilibria]], [[FAD1018 W3 — Buffer Solutions]], [[FAD1018 W3 (3) — Ionic Equilibria Part 5-6 — Acid-Base Titrations]], [[FAD1018 W4 — Solubility Product]], [[FAD1018 W5-W6 — Phase Equilibria]], [[FAD1018 W15 — Thermochemistry]], [[FAD1018 W16 — Chemical Kinetics Part 2]], [[FAD1018 W16 — Kinetic Chemistry]]
+**Physical Chemistry:**
+- [[FAD1018 W1 — Chemical Equilibrium]]
+- [[FAD1018 W2-W3 — Ionic Equilibria]]
+- [[FAD1018 W3 — Buffer Solutions]]
+- [[FAD1018 W3 (3) — Ionic Equilibria Part 5-6 — Acid-Base Titrations]]
+- [[FAD1018 W4 — Solubility Product]]
+- [[FAD1018 W5-W6 — Phase Equilibria]]
+- [[FAD1018 W15 — Thermochemistry]]
+- [[FAD1018 W16 — Chemical Kinetics Part 2]]
+- [[FAD1018 W16 — Kinetic Chemistry]]
 
-**Electrochemistry:** [[L1 L2 Electrochemistry]], [[Electrochemistry Part 2]], [[FAD1018 L4-L5 — Electrolytic Cell]]
+**Electrochemistry:**
+- [[L1 L2 Electrochemistry]]
+- [[Electrochemistry Part 2]]
+- [[FAD1018 L4-L5 — Electrolytic Cell]]
 
-**Organic Chemistry:** [[FAD1018 W6 — Stereochemistry]], [[FAD1018 W7 — Alcohol and Phenol]], [[FAD1018 W8-W10 — Carbonyl Compounds]], [[FAD1018 W11 — Carboxylic Acids & Derivatives]], [[FAD1018 W12 — Amine & Amino Acids]], [[FAD1018 W14 — Polymer Chemistry]]
+**Organic Chemistry:**
+- [[FAD1018 W6 — Stereochemistry]]
+- [[FAD1018 W7 — Alcohol and Phenol]]
+- [[FAD1018 W8-W10 — Carbonyl Compounds]]
+- [[FAD1018 W11 — Carboxylic Acids & Derivatives]]
+- [[FAD1018 W12 — Amine & Amino Acids]]
+- [[FAD1018 W14 — Polymer Chemistry]]
 
-**Past Year Finals:** [[FAD1007 Final 2021-2022]], [[FAD1008 Final 2021-2022]], [[FAD1018 Final 2022-2023]], [[FAD1018 Final 2023-2024]], [[FAD1018 Final 2024-2025]]
+**Past Year Finals:**
+- [[FAD1007 Final 2021-2022]]
+- [[FAD1008 Final 2021-2022]]
+- [[FAD1018 Final 2022-2023]]
+- [[FAD1018 Final 2023-2024]]
+- [[FAD1018 Final 2024-2025]]
 
-**Schedule:** [[FAD1018 — Topics (Teaching Schedule)]]
+**Schedule:**
+- [[FAD1018 — Topics (Teaching Schedule)]]
 
-**Tutorials:** [[FAD1018 Tutorial 1 — Chemical Kinetics]], [[FAD1018 Tutorial 2 — Chemical Kinetics II]], [[FAD1018 Tutorial 3 — Buffer Solutions]], [[FAD1018 Tutorial 4 — Electrochemistry]], [[FAD1018 Tutorial 5 — Solutions and Raoult's Law]], [[FAD1018 Tutorial 6 — Stereochemistry]], [[FAD1018 Tutorial 7 — Acidity of Phenols]], [[FAD1018 Tutorial 8 — Aldehydes and Ketones]], [[FAD1018 Tutorial 9 — Carboxylic Acids and Derivatives]], [[FAD1018 Tutorial 10 — Amines and Amino Acids]], [[FAD1018 Tutorial 12 — Carbohydrates]], [[FAD1018 Tutorial 13 — Lipids]], [[FAD1018 Tutorial 14 — Nucleic Acids]]
+**Tutorials:**
+- [[FAD1018 Tutorial 1 — Chemical Kinetics]]
+- [[FAD1018 Tutorial 2 — Chemical Kinetics II]]
+- [[FAD1018 Tutorial 3 — Buffer Solutions]]
+- [[FAD1018 Tutorial 4 — Electrochemistry]]
+- [[FAD1018 Tutorial 5 — Solutions and Raoult's Law]]
+- [[FAD1018 Tutorial 6 — Stereochemistry]]
+- [[FAD1018 Tutorial 7 — Acidity of Phenols]]
+- [[FAD1018 Tutorial 8 — Aldehydes and Ketones]]
+- [[FAD1018 Tutorial 9 — Carboxylic Acids and Derivatives]]
+- [[FAD1018 Tutorial 10 — Amines and Amino Acids]]
+- [[FAD1018 Tutorial 12 — Carbohydrates]]
+- [[FAD1018 Tutorial 13 — Lipids]]
+- [[FAD1018 Tutorial 14 — Nucleic Acids]]
 
-### FAD1022 — Basic Physics II (12 lectures + 1 quiz)
+### FAD1022 — Basic Physics II
 
-**Electromagnetism:** [[FAD1022 L1-L3 — Electrostatics]], [[FAD1022 L7-L9 — Capacitors]], [[FAD1022 L14-L16 — AC Analysis]], [[FAD1022 L17-L21 — AC Series Circuits]], [[FAD1022 L22-L26 — Magnetism]], [[FAD1022 L31-L33 — Inductance & Transformers]], [[FAD1022 Quick Quiz 2026 — Inductance & Transformers]], [[Revision Faraday and Lenz Law]]
+**Electromagnetism:**
+- [[FAD1022 L1-L3 — Electrostatics]]
+- [[FAD1022 L7-L9 — Capacitors]]
+- [[FAD1022 L14-L16 — AC Analysis]]
+- [[FAD1022 L17-L21 — AC Series Circuits]]
+- [[FAD1022 L22-L26 — Magnetism]]
+- [[FAD1022 L31-L33 — Inductance & Transformers]]
+- [[FAD1022 Quick Quiz 2026 — Inductance & Transformers]]
+- [[Revision Faraday and Lenz Law]]
 
-**Electronics:** [[FAD1022 L34-L38 — Semiconductors & Op-Amps]]
+**Electronics:**
+- [[FAD1022 L34-L38 — Semiconductors & Op-Amps]]
 
-**Modern Physics:** [[FAD1022 L39-L42 — Atomic & Nuclear Physics]], [[FAD1022 L43 — Modern Physics]], [[FAD1022 L44 — Photons and Photoelectric Effect]], [[FAD1022 L45 — Introduction to Quantum Mechanics]]
+**Modern Physics:**
+- [[FAD1022 L39-L42 — Atomic & Nuclear Physics]]
+- [[FAD1022 L43 — Modern Physics]]
+- [[FAD1022 L44 — Photons and Photoelectric Effect]]
+- [[FAD1022 L45 — Introduction to Quantum Mechanics]]
 
-**Tutorials:** [[FAD1022 Tutorial 1 — Electrostatics]], [[FAD1022 Tutorial 3 — Capacitors]], [[FAD1022 Tutorial 4 — DC Circuits]], [[FAD1022 Tutorial 5 — AC Basics]], [[FAD1022 Tutorial 6 — AC Circuit Analysis Part 1]], [[FAD1022 Tutorial 7 — AC Circuit Analysis Part 2]], [[FAD1022 Tutorial 8 — Magnetism Part 1]], [[FAD1022 Tutorial 9 — Magnetism and Electromagnetic Induction]], [[FAD1022 Tutorial 10 — Electromagnetism]], [[FAD1022 Tutorial 11 — Inductance]], [[FAD1022 Tutorial 12 — Semiconductors and Electronics]], [[FAD1022 Tutorial 13 — Electronics and Atomic Physics]], [[FAD1022 Tutorial 14 — Atomic Physics]], [[FAD1022 Tutorial 15 — Modern Physics]]
+**Tutorials:**
+- [[FAD1022 Tutorial 1 — Electrostatics]]
+- [[FAD1022 Tutorial 3 — Capacitors]]
+- [[FAD1022 Tutorial 4 — DC Circuits]]
+- [[FAD1022 Tutorial 5 — AC Basics]]
+- [[FAD1022 Tutorial 6 — AC Circuit Analysis Part 1]]
+- [[FAD1022 Tutorial 7 — AC Circuit Analysis Part 2]]
+- [[FAD1022 Tutorial 8 — Magnetism Part 1]]
+- [[FAD1022 Tutorial 9 — Magnetism and Electromagnetic Induction]]
+- [[FAD1022 Tutorial 10 — Electromagnetism]]
+- [[FAD1022 Tutorial 11 — Inductance]]
+- [[FAD1022 Tutorial 12 — Semiconductors and Electronics]]
+- [[FAD1022 Tutorial 13 — Electronics and Atomic Physics]]
+- [[FAD1022 Tutorial 14 — Atomic Physics]]
+- [[FAD1022 Tutorial 15 — Modern Physics]]
 
-### FAC1004 — Advanced Mathematics II (Computing) (11 lectures)
+### FAC1004 — Advanced Mathematics II (Computing)
 
-**Complex Numbers:** [[FAC1004 L01 — Complex Numbers]], [[FAC1004 L02 — Euler's Formula]], [[FAC1004 L5-L6 — Functions of Complex Numbers (n-th Roots)]], [[FAC1004 L7-L8 — Complex Equations (Geometric Interpretation)]]
+**Complex Numbers:**
+- [[FAC1004 L01 — Complex Numbers]]
+- [[FAC1004 L02 — Euler's Formula]]
+- [[FAC1004 L5-L6 — Functions of Complex Numbers (n-th Roots)]]
+- [[FAC1004 L7-L8 — Complex Equations (Geometric Interpretation)]]
 
-**Inverse Trig & Hyperbolic:** [[FAC1004 L13 — Inverse Trigonometric Functions]], [[FAC1004 L14 — Properties of Inverse Trig Functions]], [[FAC1004 L15-L16 — Derivatives of Inverse Trig Functions]], [[FAC1004 L17 — Hyperbolic Functions]], [[FAC1004 L18 — Hyperbolic Functions (Derivatives & Integrals)]], [[FAC1004 L19-L20 — Inverse Hyperbolic Functions]], [[FAC1004 L21-L22 — Integrals Involving Hyperbolic Functions]]
+**Inverse Trig & Hyperbolic:**
+- [[FAC1004 L13 — Inverse Trigonometric Functions]]
+- [[FAC1004 L14 — Properties of Inverse Trig Functions]]
+- [[FAC1004 L15-L16 — Derivatives of Inverse Trig Functions]]
+- [[FAC1004 L17 — Hyperbolic Functions]]
+- [[FAC1004 L18 — Hyperbolic Functions (Derivatives & Integrals)]]
+- [[FAC1004 L19-L20 — Inverse Hyperbolic Functions]]
+- [[FAC1004 L21-L22 — Integrals Involving Hyperbolic Functions]]
 
-**Tutorials:** [[FAC1004 Tutorial 2 — Complex Numbers & De Moivre's Theorem]], [[FAC1004 Tutorial 3 — Complex Logarithms & Loci]], [[FAC1004 Tutorial 6 — Inverse Trigonometric Functions]], [[FAC1004 Tutorial 7 — Derivatives of Inverse Trig & Hyperbolic Functions]], [[FAC1004 Tutorial 8 — Hyperbolic Functions]], [[FAC1004 Tutorial 9 — Inverse Hyperbolic Functions]], [[FAC1004 Tutorial 10 — Integration of Hyperbolic Functions]]
+**Tutorials:**
+- [[FAC1004 Tutorial 2 — Complex Numbers & De Moivre's Theorem]]
+- [[FAC1004 Tutorial 3 — Complex Logarithms & Loci]]
+- [[FAC1004 Tutorial 6 — Inverse Trigonometric Functions]]
+- [[FAC1004 Tutorial 7 — Derivatives of Inverse Trig & Hyperbolic Functions]]
+- [[FAC1004 Tutorial 8 — Hyperbolic Functions]]
+- [[FAC1004 Tutorial 9 — Inverse Hyperbolic Functions]]
+- [[FAC1004 Tutorial 10 — Integration of Hyperbolic Functions]]
 
 ---
 
@@ -193,46 +341,8 @@ People, courses, and institutions associated with this wiki.
 
 ## Skills
 
-This wiki bundles 33 LLM skills that enhance AI-powered learning. Click any skill to view its full instructions.
-
-### Recommended for PASUM
+This wiki packs 33 LLM skills inside `skills/`. The three most useful for PASUM study are recommended below — an AI assistant can load any of them on request.
 
 - [[academic-wiki]] — Navigate the PASUM knowledge graph interactively
 - [[problem-set-synthesis]] — Generate interleaved practice problems across subjects
 - [[grill-me]] — Stress-test your understanding of any concept
-
-### All Skills
-
-- [[academic-wiki]] — Academic wiki building from source materials
-- [[adapt]] — Responsive design across devices and contexts
-- [[animate]] — Purposeful motion and micro-interactions
-- [[arrange]] — Layout, spacing, and visual rhythm
-- [[audit]] — Comprehensive interface quality audit
-- [[autoresearch]] — Autonomous iterative experimentation loop
-- [[bolder]] — Amplify safe designs for more impact
-- [[clarify]] — Improve unclear UX copy and labels
-- [[colorize]] — Strategic color for visual interest
-- [[critique]] — UX design evaluation and feedback
-- [[delight]] — Moments of joy and personality
-- [[distill]] — Strip designs to their essence
-- [[extract]] — Component and pattern extraction
-- [[find-skills]] — Discover and install agent skills
-- [[frontend-design]] — Production-grade frontend interfaces
-- [[grill-me]] — Relentless interview-style drilling
-- [[harden]] — Error handling, i18n, edge cases
-- [[humanizer-zh]] — 去除 AI 生成痕迹，让文本更自然
-- [[karpathy-guidelines]] — Reduce common LLM coding mistakes
-- [[llm-wiki]] — Build and maintain an Obsidian wiki knowledge base
-- [[mermaid-visualizer]] — Transform text into professional diagrams
-- [[normalize]] — Design system consistency
-- [[obsidian-chem]] — Chemical structure rendering from SMILES
-- [[obsidian-markdown]] — Obsidian Flavored Markdown creation
-- [[onboard]] — Onboarding flows and first-time experiences
-- [[optimize]] — Interface performance improvement
-- [[overdrive]] — Technically ambitious interface implementations
-- [[polish]] — Final quality pass before shipping
-- [[problem-set-synthesis]] — Interleaved problem sets for deeper learning
-- [[quieter]] — Tone down overly bold designs
-- [[skill-creator]] — Create, edit, and measure skill performance
-- [[teach-impeccable]] — One-time design context setup
-- [[typeset]] — Typography and readability improvement
