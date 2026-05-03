@@ -63,12 +63,19 @@ Three lectures on phase equilibria: (1) phase definitions, colligative propertie
 
 ```smiles
 O=O
+```
+```smiles
 N#N
+```
+```smiles
 [H][H]
+```
+```smiles
 [Na+].[Cl-]
+```
+```smiles
 [Cu+2].[O-]S([O-])(=O)=O
 ```
-
 ### Types of Phase Changes
 
 ```mermaid
@@ -120,7 +127,6 @@ $$ΔP = P_A^o - P_A = X_B P_A^o$$
 ```smiles
 C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O
 ```
-
 #### Freezing Point Depression
 
 $$ΔT_f = K_f m = T_{solution} - T_{solvent}$$
@@ -135,9 +141,10 @@ $$ΔT_f = K_f m = T_{solution} - T_{solvent}$$
 
 ```smiles
 c1ccc2ccccc2c1
+```
+```smiles
 c1ccccc1
 ```
-
 #### Boiling Point Elevation
 
 $$ΔT_b = K_b m = T_{b,solution} - T_{b,solvent}$$
@@ -153,7 +160,6 @@ $$ΔT_b = K_b m = T_{b,solution} - T_{b,solvent}$$
 ```smiles
 OCCO
 ```
-
 #### Osmotic Pressure
 
 $$ΠV = nRT \quad \text{or} \quad Π = MRT$$
@@ -167,7 +173,6 @@ $$ΠV = nRT \quad \text{or} \quad Π = MRT$$
 ```smiles
 OCC(O)CO
 ```
-
 > [!example] Example: Polystyrene molecular weight
 > 5.0 g polystyrene/L, $Π = 0.0100$ atm at 25°C.
 >
@@ -177,7 +182,6 @@ OCC(O)CO
 ```smiles
 C=CC1=CC=CC=C1
 ```
-
 ### One-Component Phase Diagrams
 
 **Water:**
@@ -195,9 +199,10 @@ C=CC1=CC=CC=C1
 
 ```smiles
 O
+```
+```smiles
 O=C=O
 ```
-
 ---
 
 ## Lecture 2 — Solutions & Raoult's Law (W5)
@@ -218,12 +223,19 @@ O=C=O
 
 ```smiles
 c1ccccc1
+```
+```smiles
 Cc1ccccc1
+```
+```smiles
 CCO
+```
+```smiles
 O
+```
+```smiles
 Cl
 ```
-
 ### Raoult's Law
 
 For a two-component miscible liquid mixture:
@@ -260,9 +272,10 @@ Where $X_A + X_B = 1$.
 
 ```smiles
 C(=S)=S
+```
+```smiles
 CC(=O)C
 ```
-
 > [!example] Example: Sucrose solution vapor pressure
 > 99.5 g sucrose + 300.0 mL water at 25°C. $P°_{water} = 23.8$ torr.
 >
@@ -274,7 +287,6 @@ CC(=O)C
 ```smiles
 C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O
 ```
-
 ---
 
 ## Lecture 3 — Fractional Distillation & Azeotropes (W6)
@@ -315,9 +327,10 @@ A mixture that distills at constant composition (cannot be separated by simple f
 
 ```smiles
 CCO
+```
+```smiles
 c1ccccc1
 ```
-
 > [!note] Characteristics of positive deviation
 > - $P_{total} > P_{theoretical}$
 > - Endothermic solution ($ΔH = +ve$)
@@ -340,10 +353,13 @@ c1ccccc1
 
 ```smiles
 Cl
+```
+```smiles
 O
+```
+```smiles
 O=[N+]([O-])O
 ```
-
 > [!note] Characteristics of negative deviation
 > - $P_{total} < P_{theoretical}$
 > - Exothermic solution ($ΔH = -ve$)

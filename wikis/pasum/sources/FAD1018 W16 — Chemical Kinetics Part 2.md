@@ -67,7 +67,6 @@ For the decomposition of $\ce{N2O5}$:
 ```smiles
 O=[N+]([O-])O[N+](=O)[O-]
 ```
-
 Given: $k_1 = 3.46 \times 10^{-5}$ s⁻¹ at $T_1 = 298$ K, $k_2 = 4.87 \times 10^{-3}$ s⁻¹ at $T_2 = 338$ K. Find $E_a$.
 
 **Solution:**
@@ -95,7 +94,6 @@ II
 ```smiles
 II
 ```
-
 Given: $E_a = 183$ kJ·mol⁻¹, $k_1 = 3.02 \times 10^{-5}$ M⁻¹·s⁻¹ at $T_1 = 629$ K. Find $k_2$ at $T_2 = 700$ K.
 
 **Solution:**
@@ -125,7 +123,6 @@ N(=O)[O]
 ```smiles
 O=O
 ```
-
 | $T$ (K) | $k$ (s⁻¹) | $1/T$ (K⁻¹) | $\ln k$ |
 |---------|-----------|-------------|---------|
 | 298 | $3.46 \times 10^{-5}$ | $3.36 \times 10^{-3}$ | $-10.27$ |
@@ -233,7 +230,6 @@ O=O
 ```smiles
 O=[N+]([O-])[O-]
 ```
-
 **Proposed two-step mechanism:**
 
 | Step | Elementary Reaction | Molecularity |
@@ -247,7 +243,6 @@ The intermediate is $\ce{N2O2}$, which is formed in Step 1 and consumed in Step 
 ```smiles
 O=NN=O
 ```
-
 ## 4. Rate-Determining Step
 
 ### Definition
@@ -278,7 +273,6 @@ N#N
 ```smiles
 O
 ```
-
 **Experimentally determined rate law:** Rate $= k[\ce{NO}]^2[\ce{H2}]$
 
 **Proposed Mechanism A:**
@@ -344,7 +338,6 @@ O=O[O-]
 ```smiles
 O=O
 ```
-
 ### Termolecular Reactions
 
 **Rate law for elementary step:** Rate $= k[A][B][C]$ or $k[A]^2[B]$ or $k[A]^3$
@@ -399,7 +392,6 @@ OO
 ```smiles
 [I-]
 ```
-
 **Mechanism of iodide-catalyzed $\ce{H2O2}$ decomposition:**
 1. $\ce{H2O2 + I- -> H2O + IO-}$ (slow)
 2. $\ce{H2O2 + IO- -> H2O + O2 + I-}$ (fast)
@@ -451,12 +443,11 @@ Enzymes are biological catalysts — typically proteins — that dramatically ac
 $$\ce{E + S <=>[k_1][k_{-1}] ES ->[k_2] E + P}$$
 
 ```smiles
-CC(=O)OCC  # Ethyl acetate (example substrate)
+CC(=O)OCC
 ```
 ```smiles
-O       # Water
+O
 ```
-
 ### Michaelis-Menten Kinetics
 
 Leonor Michaelis and Maud Menten (1913) developed a model describing the rate of enzyme-catalyzed reactions.

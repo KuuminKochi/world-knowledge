@@ -62,9 +62,10 @@ A point in a molecule where exchange of substituents leads to different stereois
 **SMILES examples:**
 ```smiles
 CCC(C)O
+```
+```smiles
 CC(C)O
 ```
-
 ### 4. 3D Representations (p18–19)
 **Wedge-dash conventions:**
 1. Identify chiral centre
@@ -88,7 +89,6 @@ CC(C)O
 ```smiles
 CCC(C)Cl
 ```
-
 **Enantiomers in Fischer**: Mirror images across the vertical axis.
 
 **No carbon chain case** (e.g., aminochloromethanol):
@@ -97,7 +97,6 @@ CCC(C)Cl
 ```smiles
 NC(Cl)O
 ```
-
 ### 6. Converting 3D to Fischer (p25–28)
 1. First atom/group (IUPAC numbering) at top; last at bottom
 2. Top and bottom groups positioned **away** from observer (into the plane)

@@ -46,7 +46,6 @@ An **electrolytic cell** uses electrical energy to drive a non-spontaneous chemi
 ```smiles
 [Cu+2]
 ```
-
 ---
 
 ## 2. Factors Affecting Electrolysis Products of Aqueous Solutions

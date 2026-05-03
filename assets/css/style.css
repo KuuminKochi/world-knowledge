@@ -439,8 +439,14 @@ img { max-width: 100%; height: auto; }
 .smiles-canvas {
     display: block;
     max-width: 100%;
+    height: auto;
     margin: 1rem 0;
     border: 1px solid var(--border);
+    border-radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .smiles-canvas { background: #fff; }
 }
 
 /* ── Mermaid ────────────────────────────────────────── */
@@ -451,7 +457,6 @@ img { max-width: 100%; height: auto; }
 }
 @media (prefers-color-scheme: dark) {
     .mermaid svg { filter: invert(0.9) hue-rotate(180deg); }
-    .smiles-canvas { background: #fff; }
 }
 
 /* ── KaTeX ──────────────────────────────────────────── */

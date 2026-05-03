@@ -95,53 +95,47 @@ Polymers made up from **two or more different** monomers.
 ### Polyethylene (PE)
 
 ```smiles
-C=C                          ; ethene (monomer)
+C=C
 ```
-
 - **LDPE** (Recycling code 4): Discovered 1933 by ICI. Conditions: 1200 atm, 200°C, O₂ — free radical mechanism. Highly branched, mp 150°C, density 0.92 g cm⁻³. Uses: plastic bags, wrapping sheet, bottles, electrical insulation.
 - **HDPE** (Recycling code 2): 1953 by Ziegler & Natta. Conditions: 1 atm, 60°C, TiCl₄ + (C₂H₅)₃Al — Ziegler-Natta mechanism. Linear, density 0.96 g cm⁻³, mp 130–140°C. Stronger and harder. Uses: rigid articles, pipes.
 
 ### Polypropylene (PP)
 
 ```smiles
-C=CC                         ; propene (monomer)
+C=CC
 ```
-
 - Methyl groups increase van der Waals forces but make chains difficult to pack → lower density but higher mp
 - Uses: Ropes, moulds, bottles, kitchenware, carpets, battery containers
 
 ### Polyvinyl Chloride (PVC)
 
 ```smiles
-C=CCl                        ; chloroethene / vinyl chloride (monomer)
+C=CCl
 ```
-
 - Rigid (pipes) or plasticized (flooring)
 
 ### Polystyrene (PS)
 
 ```smiles
-c1ccccc1C=C                  ; phenylethene / styrene (monomer)
+c1ccccc1C=C
 ```
-
 - Expanded PS: Foam packaging, insulation
 - Uses: Food packaging containers
 
 ### Polytetrafluoroethylene (PTFE, Teflon)
 
 ```smiles
-F/C(F)=C(F)/F                ; tetrafluoroethylene (monomer)
+F/C(F)=C(F)/F
 ```
-
 - Exceptional chemical resistance, low friction
 - Uses: Non-stick coatings, thread seal tape
 
 ### Neoprene (Synthetic Rubber)
 
 ```smiles
-C=C(Cl)C=C                   ; 2-chloro-1,3-butadiene (chloroprene)
+C=C(Cl)C=C
 ```
-
 - First synthetic rubber; polymerization of 2-chloro-1,3-butadiene
 - Resistant to most chemicals
 - Uses: Hoses for petrol, containers for corrosive liquids
@@ -157,29 +151,30 @@ C=C(Cl)C=C                   ; 2-chloro-1,3-butadiene (chloroprene)
 **Nylon 6,6**
 
 ```smiles
-NCCCCCCN                     ; hexane-1,6-diamine
-O=C(O)CCCCC(=O)O             ; hexane-1,6-dioic acid (adipic acid)
+NCCCCCCN
 ```
-
+```smiles
+O=C(O)CCCCC(=O)O
+```
 - Monomers: Hexane-1,6-diamine + hexane-1,6-dioic acid
 - By-product: **nH₂O**
 
 **Nylon 6**
 
 ```smiles
-NCCCCCC(=O)O                 ; 6-aminohexanoic acid (caprolactam derivative)
+NCCCCCC(=O)O
 ```
-
 - Monomer: 6-aminohexanoic acid
 - By-product: **nH₂O**
 
 **Kevlar**
 
 ```smiles
-Nc1ccc(N)cc1                 ; 1,4-diaminobenzene
-O=C(O)c1ccc(C(=O)O)cc1       ; terephthalic acid
+Nc1ccc(N)cc1
 ```
-
+```smiles
+O=C(O)c1ccc(C(=O)O)cc1
+```
 - Monomers: 1,4-diaminobenzene + terephthalic acid
 - Properties: Very strong and flexible
 - Uses: Bulletproof vests
@@ -189,10 +184,11 @@ O=C(O)c1ccc(C(=O)O)cc1       ; terephthalic acid
 **Dacron (PET)**
 
 ```smiles
-COC(=O)c1ccc(C(=O)OC)cc1     ; dimethyl terephthalate
-OCCO                         ; ethylene glycol (1,2-ethanediol)
+COC(=O)c1ccc(C(=O)OC)cc1
 ```
-
+```smiles
+OCCO
+```
 - Monomers: Dimethyl terephthalate + ethylene glycol
 - By-product: **Methanol**
 - Uses: Clothing, tyre cords, carpets
@@ -200,10 +196,11 @@ OCCO                         ; ethylene glycol (1,2-ethanediol)
 **Terylene**
 
 ```smiles
-O=C(O)c1ccc(C(=O)O)cc1       ; terephthalic acid
-OCCO                         ; ethane-1,2-diol (ethylene glycol)
+O=C(O)c1ccc(C(=O)O)cc1
 ```
-
+```smiles
+OCCO
+```
 - Monomers: Terephthalic acid + ethane-1,2-diol
 - By-product: **Water**
 
@@ -227,7 +224,6 @@ Every standard amino acid contains an α-amino group (–NH₂), a carboxyl grou
 ```smiles
 N[C@@H](R)C(=O)O
 ```
-
 > Glycine (R = H) is the only achiral standard amino acid.
 
 In aqueous solution, amino acids exist as **zwitterions** — dipolar ions with both a positive and a negative charge:
@@ -235,7 +231,6 @@ In aqueous solution, amino acids exist as **zwitterions** — dipolar ions with 
 ```smiles
 [NH3+]CC(=O)[O-]
 ```
-
 #### Charge and pH
 - **Isoelectric point (pI)**: pH at which the amino acid has no net charge.
 - At **pH < pI**: net positive charge (migrates to cathode in electrophoresis).
@@ -247,7 +242,6 @@ Amino acids are linked by **peptide bonds** via condensation (elimination of H�
 ```smiles
 NCC(=O)O.NCC(=O)O>>NCC(=O)NCC(=O)O
 ```
-
 - **N-terminus**: Free amino group at one end.
 - **C-terminus**: Free carboxyl group at the other end.
 - Sequences are written **N → C**.
@@ -257,7 +251,6 @@ Example tripeptide **Ala-Gly-Ala**:
 ```smiles
 CC(N)C(=O)NCC(=O)NC(C)C(=O)O
 ```
-
 #### Protein Classification
 
 | Type | Characteristics | Examples |
@@ -288,9 +281,8 @@ CC(N)C(=O)NCC(=O)NC(C)C(=O)O
 ### Natural Rubber
 
 ```smiles
-CC(=C)C=C                    ; isoprene / 2-methyl-1,3-butadiene (monomer)
+CC(=C)C=C
 ```
-
 - Polymer of 2-methyl-1,3-butadiene (isoprene)
 - Exists in two forms: **cis** and **trans** depending on spatial arrangement of -CH₂ groups
 - Natural rubber is soft, sticky, not strong or elastic

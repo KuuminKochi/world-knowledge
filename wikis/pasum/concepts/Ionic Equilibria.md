@@ -72,17 +72,14 @@ $\text{NH}_3 + \text{BF}_3 \rightarrow \text{adduct}$
 ```smiles
 FB(F)F
 ```
-
 ```smiles
 N
 ```
-
 $\text{F}^- + \text{BF}_3 \rightarrow [\text{F-BF}_3]^-$
 
 ```smiles
 F[B-](F)(F)F
 ```
-
 $2\text{NH}_3 + \text{Ag}^+ \rightarrow [\text{H}_3\text{N-Ag-NH}_3]^+$
 
 The products are called **adducts**.
@@ -104,7 +101,6 @@ The products are called **adducts**.
 ```smiles
 Cl[Al](Cl)Cl
 ```
-
 ## Common Acids and Bases
 
 ### Common Acids
@@ -120,19 +116,15 @@ Cl[Al](Cl)Cl
 ```smiles
 CC(=O)O
 ```
-
 ```smiles
 O=C(O)CC(O)(CC(=O)O)C(=O)O
 ```
-
 ```smiles
 O=S(=O)(O)O
 ```
-
 ```smiles
 O=[N+]([O-])O
 ```
-
 ### Common Bases
 
 | Name | Formula | Occurrence/Uses |
@@ -146,19 +138,15 @@ O=[N+]([O-])O
 ```smiles
 [K+].[OH-]
 ```
-
 ```smiles
 [Na+].OC(=O)[O-]
 ```
-
 ```smiles
 [Na+].[Na+].C(=O)([O-])[O-]
 ```
-
 ```smiles
 N
 ```
-
 ## pH Scale
 
 $pH = -\log[H^+]$
@@ -203,7 +191,6 @@ An **amphoteric species** is a substance that has the ability to act either as a
 ```smiles
 O[Al](O)O
 ```
-
 > **Note:** HSO₄⁻ is also amphoteric.
 
 ## Acid and Base Dissociation Constants
@@ -213,31 +200,25 @@ O[Al](O)O
 **Strong acids** dissociate completely (100% ionized, α = 1). Examples: HCl, H₂SO₄, HNO₃, HBr, HClO₄, HI. pH ≈ 1.
 
 ```smiles
-Cl    # HCl
+Cl
 ```
-
 ```smiles
-Br    # HBr
+Br
 ```
-
 ```smiles
-O=Cl(=O)(=O)O    # HClO4
+O=Cl(=O)(=O)O
 ```
-
 ```smiles
-I    # HI
+I
 ```
-
 **Strong bases** dissociate completely (100% ionized, α = 1). Examples: NaOH, Mg(OH)₂, Ca(OH)₂. pH ≈ 14.
 
 ```smiles
-[OH-].[OH-].[Mg+2]    # Mg(OH)2
+[OH-].[OH-].[Mg+2]
 ```
-
 ```smiles
-[OH-].[OH-].[Ca+2]    # Ca(OH)2
+[OH-].[OH-].[Ca+2]
 ```
-
 ### Weak Acids
 
 Not dissociate completely (partially ionized). The system exists as an equilibrium:
@@ -273,31 +254,24 @@ $K_a = \frac{[\text{H}_3\text{O}^+][\text{A}^-]}{[\text{HA}]}$
 ```smiles
 O=NO
 ```
-
 ```smiles
 CC(=O)Oc1ccccc1C(=O)O
 ```
-
 ```smiles
 O=C1C(O)=C(O)[C@@H](O)[C@H]1CO
 ```
-
 ```smiles
 O=C(O)c1ccccc1
 ```
-
 ```smiles
 ClO
 ```
-
 ```smiles
 C#N
 ```
-
 ```smiles
 Oc1ccccc1
 ```
-
 ### Weak Bases
 
 Not dissociate completely (partially ionized). The system exists as an equilibrium:
@@ -329,23 +303,18 @@ $K_b = \frac{[\text{NH}_4^+][\text{OH}^-]}{[\text{NH}_3]}$
 ```smiles
 CCN
 ```
-
 ```smiles
 CN1C=NC2=C1C(=O)N(C(=O)N2C)C
 ```
-
 ```smiles
 c1ccncc1
 ```
-
 ```smiles
 Nc1ccccc1
 ```
-
 ```smiles
 NC(=O)N
 ```
-
 ### Relationship Between Ka and Kb
 
 For a conjugate acid-base pair, multiplying the acid dissociation expression by the conjugate base hydrolysis expression yields:
@@ -373,45 +342,53 @@ A solution that maintains its pH when a small amount of an acid or a base is add
 Common buffer systems from lecture:
 
 ```smiles
-CC(=O)O           # CH3COOH (acetic acid)
-CC(=O)[O-]        # CH3COO- (acetate)
+CC(=O)O
 ```
-
 ```smiles
-N                 # NH3 (ammonia)
-[NH4+]            # NH4+ (ammonium)
+CC(=O)[O-]
 ```
-
 ```smiles
-O=CO              # HCOOH (formic acid)
-O=C[O-]           # HCOO- (formate)
+N
 ```
-
 ```smiles
-F                 # HF (hydrofluoric acid)
-[F-]              # F- (fluoride)
+[NH4+]
 ```
-
 ```smiles
-CN                # CH3NH2 (methylamine)
-C[NH3+]           # CH3NH3+ (methylammonium)
+O=CO
 ```
-
 ```smiles
-S                 # H2S (hydrogen sulfide)
-[SH-]             # HS- (hydrosulfide)
+O=C[O-]
 ```
-
 ```smiles
-C(=O)([O-])[O-]   # CO3^2- (carbonate)
-O=C(O)[O-]        # HCO3- (bicarbonate)
+F
 ```
-
 ```smiles
-O=P([O-])(O)O     # H2PO4- (dihydrogen phosphate)
-O=P([O-])([O-])O  # HPO4^2- (hydrogen phosphate)
+[F-]
 ```
-
+```smiles
+CN
+```
+```smiles
+C[NH3+]
+```
+```smiles
+S
+```
+```smiles
+[SH-]
+```
+```smiles
+C(=O)([O-])[O-]
+```
+```smiles
+O=C(O)[O-]
+```
+```smiles
+O=P([O-])(O)O
+```
+```smiles
+O=P([O-])([O-])O
+```
 ### Buffer Action
 
 **Acidic buffer (e.g., CH₃COOH / CH₃COO⁻):**
@@ -467,7 +444,6 @@ $$\text{NaCl}_{(aq)} \rightarrow \text{Na}^+_{(aq)} + \text{Cl}^-_{(aq)}$$
 ```smiles
 [Na+].[Cl-]
 ```
-
 ### Acidic Salts (SA-WB)
 Formed from strong acid + weak base. The **cation undergoes hydrolysis**, donating a proton to water to produce H₃O⁺. pH < 7.
 
@@ -478,7 +454,6 @@ $$\text{NH}_4^+_{(aq)} + \text{H}_2\text{O}_{(l)} \rightleftharpoons \text{NH}_{
 ```smiles
 [NH4+].[Cl-]
 ```
-
 **Calculation approach:** Treat the conjugate acid as a weak acid. Use $K_a = K_w/K_b$ and solve via ICE table.
 
 **Worked example:** 0.20 M NH₄Cl with $K_b(\text{NH}_3) = 1.8 \times 10^{-5}$:
@@ -496,7 +471,6 @@ $$\text{CH}_3\text{COO}^-_{(aq)} + \text{H}_2\text{O}_{(l)} \rightleftharpoons \
 ```smiles
 CC(=O)[O-].[Na+]
 ```
-
 **Calculation approach:** Treat the conjugate base as a weak base. Use $K_b = K_w/K_a$ and solve via ICE table.
 
 **Worked example:** 0.5 M C₆H₅COONa with $K_a(\text{C}_6\text{H}_5\text{COOH}) = 6.5 \times 10^{-5}$:
@@ -507,7 +481,6 @@ CC(=O)[O-].[Na+]
 ```smiles
 O=C([O-])c1ccccc1.[Na+]
 ```
-
 ## Salts of Weak Acid & Weak Base
 
 When both cation and anion hydrolyze, the nature of the solution depends on the relative magnitudes of $K_a$ and $K_b$:
@@ -523,13 +496,11 @@ When both cation and anion hydrolyze, the nature of the solution depends on the 
 ```smiles
 O=C([O-])c1ccccc1.[NH4+]
 ```
-
 **Example:** Ammonium ethanoate (CH₃COONH₄) is **neutral** because $K_a(\text{CH}_3\text{COOH}) = K_b(\text{NH}_3) = 1.8 \times 10^{-5}$.
 
 ```smiles
 CC(=O)[O-].[NH4+]
 ```
-
 ## Acid-Base Titrations
 
 A titration is a process in which a solution containing a known concentration of base is slowly added to an acid (or vice versa). A plot of pH vs volume of titrant is called a **titration curve**.
@@ -558,13 +529,11 @@ A titration is a process in which a solution containing a known concentration of
 | Phenolphthalein | Colourless | Pink | 8.3 – 10.0 |
 
 ```smiles
-O=C1OC(C2=CC=CC=C2)(C2=CC=CC=C2)C2=CC=C(O)C=C12  # Phenolphthalein (acid form)
+O=C1OC(C2=CC=CC=C2)(C2=CC=CC=C2)C2=CC=C(O)C=C12
 ```
-
 ```smiles
-O=C1OC(C2=CC=CC=C2)(C2=CC=CC=C2)C2=CC=C([O-])C=C12  # Phenolphthalein (base form)
+O=C1OC(C2=CC=CC=C2)(C2=CC=CC=C2)C2=CC=C([O-])C=C12
 ```
-
 ### Titration Types Summary
 
 | Titration Type | Equivalence Point pH | Salt Type | Suitable Indicator |
@@ -579,21 +548,17 @@ O=C1OC(C2=CC=CC=C2)(C2=CC=CC=C2)C2=CC=C([O-])C=C12  # Phenolphthalein (base form
 $$NaOH(aq) + HCl(aq) \rightarrow NaCl(aq) + H_2O(l)$$
 
 ```smiles
-[Na+].[OH-]       # NaOH
+[Na+].[OH-]
 ```
-
 ```smiles
-Cl                # HCl
+Cl
 ```
-
 ```smiles
-[Na+].[Cl-]       # NaCl
+[Na+].[Cl-]
 ```
-
 ```smiles
-O                 # H2O
+O
 ```
-
 - Equivalence point: **pH = 7.0** (neutral salt, neither Na⁺ nor Cl⁻ hydrolyzes)
 - Steep pH change around equivalence
 - Calculation approach: determine limiting reactant, calculate excess [H⁺] or [OH⁻], then pH
@@ -604,13 +569,11 @@ O                 # H2O
 $$CH_3COOH(aq) + NaOH(aq) \rightarrow CH_3COONa(aq) + H_2O(l)$$
 
 ```smiles
-CC(=O)O           # CH3COOH (acetic acid)
+CC(=O)O
 ```
-
 ```smiles
-CC(=O)[O-].[Na+]  # CH3COONa (sodium acetate)
+CC(=O)[O-].[Na+]
 ```
-
 - Equivalence point: **pH > 7** (basic salt — acetate anion hydrolyzes)
 - **Buffer zone** before equivalence: mixture of weak acid and conjugate base
 - **Half-equivalence point**: pH = pKa (e.g., pKa = 4.76 for acetic acid)
@@ -622,13 +585,11 @@ CC(=O)[O-].[Na+]  # CH3COONa (sodium acetate)
 $$NH_3(aq) + HCl(aq) \rightarrow NH_4Cl(aq)$$
 
 ```smiles
-N                 # NH3 (ammonia)
+N
 ```
-
 ```smiles
-[Cl-].[NH4+]         # NH4Cl (ammonium chloride)
+[Cl-].[NH4+]
 ```
-
 - Equivalence point: **pH < 7** (acidic salt — ammonium cation hydrolyzes)
 - **Buffer zone** before equivalence: mixture of weak base and conjugate acid
 - At equivalence: calculate pH from hydrolysis of conjugate acid using Ka = Kw/Kb

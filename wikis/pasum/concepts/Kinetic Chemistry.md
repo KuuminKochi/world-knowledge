@@ -51,7 +51,6 @@ N#N
 ```smiles
 N
 ```
-
 $$N_2(g) + 3H_2(g) \longrightarrow 2NH_3(g)$$
 
 $$\text{Rate} = -\frac{d[N_2]}{dt} = -\frac{1}{3}\frac{d[H_2]}{dt} = +\frac{1}{2}\frac{d[NH_3]}{dt}$$
@@ -67,7 +66,6 @@ I
 ```smiles
 II
 ```
-
 $$2HI \longrightarrow H_2 + I_2$$
 
 If $\frac{d[I_2]}{dt} = 1.8 \times 10^{-6} \text{ M s}^{-1}$, then rate of disappearance of HI:
@@ -111,7 +109,6 @@ O=Cl=O
 ```smiles
 O=Cl(=O)F
 ```
-
 $$F_2(g) + 2ClO_2(g) \longrightarrow 2FClO_2(g)$$
 
 Rate law: $\text{Rate} = k[F_2]^1[ClO_2]^1$
@@ -129,7 +126,6 @@ O=O
 ```smiles
 O=[N+]([O-])[O-]
 ```
-
 $$2NO(g) + O_2(g) \longrightarrow 2NO_2(g)$$
 
 Rate law: $\text{rate} = k[NO]^2[O_2]^1$
@@ -150,7 +146,6 @@ OO
 ```smiles
 O
 ```
-
 $$H_2O_2(aq) + 3I^-(aq) + 2H^+(aq) \longrightarrow I_3^-(aq) + 2H_2O(l)$$
 
 Rate law: $\text{Rate} = k[H_2O_2]^1[I^-]^1$
@@ -215,9 +210,8 @@ From a plot of $[A]$ vs time:
 ### Example 1: Zero-Order Decomposition of H₂O₂
 
 ```smiles
-OO  # H₂O₂ (hydrogen peroxide)
+OO
 ```
-
 Given: $k = 3.66 \times 10^{-3}\ \text{Ms}^{-1}$, $[H_2O_2]_0 = 0.88\ \text{M}$
 
 **(a)** Time when $[H_2O_2] = 0.600\ \text{M}$:
@@ -247,10 +241,11 @@ $$t = 214.52\ \text{min}$$
 ### Example 4: Second-Order Iodine Recombination
 
 ```smiles
-[I]       # I (iodine atom)
-[I][I]    # I₂ (molecular iodine)
+[I]
 ```
-
+```smiles
+[I][I]
+```
 Reaction: $I(g) + I(g) \longrightarrow I_2(g)$
 
 Given: $k = 7.0 \times 10^{9}\ \text{M}^{-1}\text{s}^{-1}$ at $23\ ^\circ\text{C}$, $[I]_0 = 0.086\ \text{M}$
@@ -262,9 +257,8 @@ $$[I]_t = 1.19 \times 10^{-12}\ \text{M}$$
 ### Example 5: Half-Life of N₂O₅
 
 ```smiles
-O=[N+]([O-])O[N+](=O)[O-]  # N₂O₅ (dinitrogen pentoxide)
+O=[N+]([O-])O[N+](=O)[O-]
 ```
-
 Given: first-order decomposition, $k = 5.7 \times 10^{-4}\ \text{s}^{-1}$
 
 $$t_{1/2} = \frac{ln\ 2}{5.7 \times 10^{-4}} = 1216.05\ \text{s}$$
@@ -298,12 +292,17 @@ Since $\frac{1}{[S]}$ vs $t$ is linear → **second order**
 ### Example 8: Method of Initial Rates — S₂O₈²⁻ + I⁻ (p. 21)
 
 ```smiles
-O=S(=O)([O-])OOS(=O)(=O)[O-]  # S2O8^2- (peroxodisulfate)
-[I-]                           # I- (iodide)
-[O-]S(=O)(=O)[O-]             # SO4^2- (sulfate)
-I[I-]I                         # I3- (triiodide)
+O=S(=O)([O-])OOS(=O)(=O)[O-]
 ```
-
+```smiles
+[I-]
+```
+```smiles
+[O-]S(=O)(=O)[O-]
+```
+```smiles
+I[I-]I
+```
 Reaction: S₂O₈²⁻(aq) + 3I⁻(aq) → 2SO₄²⁻(aq) + I₃⁻(aq)
 
 | Exp | [S₂O₈²⁻] | [I⁻] | Initial Rate (M s⁻¹) |
@@ -470,7 +469,6 @@ For the decomposition of $\ce{N2O5}$:
 ```smiles
 O=[N+]([O-])O[N+](=O)[O-]
 ```
-
 | $T$ (K) | $k$ (s⁻¹) | $1/T$ (K⁻¹) | $\ln k$ |
 |---------|-----------|-------------|---------|
 | 298 | $3.46 \times 10^{-5}$ | $3.36 \times 10^{-3}$ | $-10.27$ |
@@ -538,7 +536,6 @@ The Maxwell-Boltzmann distribution curve explains why temperature affects reacti
 ```smiles
 I.I>>[H][H].[I][I]
 ```
-
 (This illustrates that raising temperature increases the fraction of HI molecules with enough energy to decompose.)
 
 ## Transition State Theory
@@ -565,12 +562,17 @@ $$\Delta H = E_{a\ \text{forward}} - E_{a\ \text{reverse}}$$
 Hydroxide + Bromomethane → **Transition State (imaginary)** → Methanol + Bromide
 
 ```smiles
-[OH-]              # Hydroxide ion
-CBr                # Bromomethane (CH3Br)
-CO                 # Methanol (CH3OH)
-[Br-]              # Bromide ion
+[OH-]
 ```
-
+```smiles
+CBr
+```
+```smiles
+CO
+```
+```smiles
+[Br-]
+```
 ## Energy Profile Diagrams
 
 > [!warning] Selalu keluar exam — Always appears in exams
@@ -594,12 +596,17 @@ $$E_{a\ \text{reverse}} = E_a + \Delta H$$
 $$E_{a\ \text{reverse}} = E_a - \Delta H$$
 
 ```smiles
-[C-]#[O+]          # CO (carbon monoxide)
-N(=O)[O]           # NO2 (nitrogen dioxide)
-O=C=O              # CO2 (carbon dioxide)
-[N]=O              # NO (nitric oxide)
+[C-]#[O+]
 ```
-
+```smiles
+N(=O)[O]
+```
+```smiles
+O=C=O
+```
+```smiles
+[N]=O
+```
 ### Worked Example: Free-Radical Substitution
 
 **Problem:** For the reaction $\text{P}\bullet + \text{Q}_2 \longrightarrow \text{PQ} + \text{Q}\bullet$
@@ -665,7 +672,6 @@ The **slowest elementary step** in the mechanism. It acts as a bottleneck — th
 ```smiles
 N#N
 ```
-
 Experimentally determined rate law: Rate $= k[\ce{NO}]^2[\ce{H2}]$
 
 **Mechanism A (valid):**
@@ -717,10 +723,11 @@ Catalyst is in the **same phase** as the reactants:
 - Example: Acid-catalyzed esterification
 
 ```smiles
-OO       # H2O2
-[I-]     # Iodide catalyst
+OO
 ```
-
+```smiles
+[I-]
+```
 ### Heterogeneous Catalysis
 
 Catalyst is in a **different phase** from the reactants (typically solid catalyst, gaseous/liquid reactants):
@@ -848,7 +855,6 @@ Reaction:
 ```smiles
 CC(=O)C.II>>CC(=O)CI.I
 ```
-
 (CH₃COCH₃ + I₂ → ICH₂COCH₃ + HI)
 
 Given rate constant = 1.8 × 10⁻³ M s⁻¹ (zero order). Ways to increase rate:
@@ -873,7 +879,6 @@ For 2HI(g) → H₂(g) + I₂(g), plot ln k vs 1/T. Slope = -Eₐ/R → calculat
 ```smiles
 I.I>>[H][H].[I][I]
 ```
-
 ## Related Topics
 - [[Chemical Equilibrium]] — Kinetics relates to approach to equilibrium
 - [[Thermochemistry]] — Activation energy and enthalpy

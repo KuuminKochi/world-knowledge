@@ -64,9 +64,6 @@ Nitro compounds can be reduced to **primary amines** using one of the following 
 
 **General reaction:**
 
-```smiles
-*N(=O)=O>>*N
-```
 
 **Specific examples:**
 
@@ -128,9 +125,6 @@ Reduction of nitriles produces **primary amines** only.
 
 **General reaction:**
 
-```smiles
-*C#N>>*CCN
-```
 
 **Specific examples:**
 
@@ -157,9 +151,6 @@ In the presence of a strong base, a **primary amide** reacts with halogen (Cl₂
 
 **General reaction:**
 
-```smiles
-*C(N)=O.O=C([O-])[O-].[Na+].[Na+].[OH-].[OH-].[Br][Br]>>*N.O=C([O-])[O-].[Na+].[Na+].[Br-].[Br-]
-```
 
 **Specific examples:**
 
@@ -194,9 +185,6 @@ Ammonia and amines are good nucleophiles, thus react with haloalkanes to give th
 
 **General reaction:**
 
-```smiles
-N.*X>>*N
-```
 
 However, this is a **poor method** of amine preparation since 1°, 2°, and 3° amines have similar reactivity. Multiple alkylations occur, giving a **mixture of 1°, 2°, 3° amines** and quaternary ammonium salts.
 
@@ -294,9 +282,6 @@ The carbocation stabilizes by losing a proton to form **alkenes**, and reacts wi
 
 **General reaction:**
 
-```smiles
-*N.O=N[O-].[Na+].[Cl-].[Na+].Cl>>[R+].[Cl-].*O*.*C=C*.[N-]=[N+]=[N-]
-```
 
 **Specific example:**
 
@@ -357,9 +342,6 @@ Secondary aliphatic amines and aromatic amines react with nitrous acid to form *
 
 **General reaction:**
 
-```smiles
-*N*O=N[O-].[Na+].[Cl-].[Na+].Cl>>*N(*)N=O
-```
 
 **Specific examples:**
 
@@ -446,9 +428,6 @@ The bromine decolorizes and hydrogen bromide is given off.
 - Amino acids are carboxylic acids containing an amino (-NH₂) group attached to the α-carbon
 - General structure: H₂N-CHR-COOH
 
-```smiles
-N[C@@H](*)C(=O)O
-```
 
 - Simplest amino acid: Glycine (NH₂-CH₂-COOH), IUPAC: 2-aminoethanoic acid
 
@@ -646,9 +625,7 @@ NCCC(=O)O
 3. **Highly polar molecules** — large dipole moment; high dielectric constant
 4. **Zwitterion formation** — dominant form in solution (no net charge, but dipolar)
 
-```smiles
-[NH3+][C@@H](*)C(=O)[O-]
-```
+
 *General amino acid zwitterion*
 
 ```smiles
@@ -711,19 +688,13 @@ NCC(=O)O.N[C@@H](C)C(=O)O>>NCC(=O)N[C@@H](C)C(=O)O
 - **Neutral pH (pI)**: Zwitterion — no net charge
 - **High pH (Basic)**: Amino Carboxylate Ion — fully deprotonated anion (- charge)
 
-```smiles
-[NH3+][C@@H](*)C(=O)O
-```
+
 *Low pH (acidic) — fully protonated cation*
 
-```smiles
-[NH3+][C@@H](*)C(=O)[O-]
-```
+
 *Neutral pH (pI) — zwitterion, no net charge*
 
-```smiles
-N[C@@H](*)C(=O)[O-]
-```
+
 *High pH (basic) — fully deprotonated anion*
 
 #### pKa Values

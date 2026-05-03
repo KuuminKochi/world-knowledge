@@ -26,10 +26,13 @@ A homogeneous part of a system that is physically distinct and mechanically sepa
 
 ```smiles
 O
+```
+```smiles
 O=C=O
+```
+```smiles
 [Cu+2].[O-]S(=O)(=O)[O-]
 ```
-
 ## Phase Rule (Gibbs Phase Rule)
 
 $$F = C - P + 2$$
@@ -55,9 +58,10 @@ Where:
 
 ```smiles
 O=C=O
+```
+```smiles
 O
 ```
-
 ## Phase Transitions
 
 | Transition | Name | ΔH |
@@ -98,9 +102,10 @@ Where $X_A + X_B = 1$.
 
 ```smiles
 c1ccccc1
+```
+```smiles
 Cc1ccccc1
 ```
-
 ### Deviations from Raoult's Law
 
 | Deviation | Condition | $ΔH_{soln}$ | $ΔV$ | Vapor Pressure | Boiling Point |
@@ -113,14 +118,25 @@ Cc1ccccc1
 
 ```smiles
 CCO
+```
+```smiles
 c1ccccc1
+```
+```smiles
 Cl
+```
+```smiles
 O
+```
+```smiles
 CC(=O)C
+```
+```smiles
 C(Cl)(Cl)Cl
+```
+```smiles
 O=[N+]([O-])O
 ```
-
 ## Colligative Properties
 
 Properties that depend on the number of solute particles, not their identity.
@@ -153,11 +169,16 @@ $$π = MRT$$
 
 ```smiles
 C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O
+```
+```smiles
 c1ccc2ccccc2c1
+```
+```smiles
 OCCO
+```
+```smiles
 OCC(O)CO
 ```
-
 ## Fractional Distillation & Azeotropes
 
 ### Fractional Distillation
@@ -189,11 +210,16 @@ A mixture that distills at constant composition; cannot be separated by simple f
 
 ```smiles
 CCO
+```
+```smiles
 CCCCO
+```
+```smiles
 Cl
+```
+```smiles
 O=[N+]([O-])O
 ```
-
 ## Related Topics
 - [[Thermochemistry]] — Enthalpy of phase transitions
 - [[Chemical Equilibrium]] — Phase equilibrium as dynamic process

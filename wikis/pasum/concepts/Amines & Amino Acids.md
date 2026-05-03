@@ -24,12 +24,19 @@ Nitrogen-containing organic compounds: amines are derivatives of ammonia, while 
 
 ```smiles
 CN
+```
+```smiles
 CNC
+```
+```smiles
 CN(C)C
+```
+```smiles
 Nc1ccccc1
+```
+```smiles
 C[N+](C)(C)C
 ```
-
 | Type | Example | SMILES |
 |------|---------|--------|
 | Primary amine | Methylamine | `CN` |

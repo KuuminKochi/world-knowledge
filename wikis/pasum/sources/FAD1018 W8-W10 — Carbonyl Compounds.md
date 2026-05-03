@@ -47,13 +47,22 @@ Key structures:
 
 ```smiles
 C=O
+```
+```smiles
 CC=O
+```
+```smiles
 CC(=O)C
+```
+```smiles
 c1ccccc1C=O
+```
+```smiles
 C1CCCCC1=O
+```
+```smiles
 CC(=O)c1ccccc1
 ```
-
 ### 1.2 Nomenclature
 
 #### Aldehydes
@@ -120,9 +129,6 @@ Common names are also used: the number of carbons (other than those of the pheny
 
 Use a **mild oxidizing agent**; **PCC (Pyridinium chlorochromate) in CH₂Cl₂** is the only reagent that stops at the aldehyde.
 
-```smiles
-RCH2OH.O=[Cr](O)O.c1ccncc1>>RC=O
-```
 
 Strong oxidizing agents (`K₂Cr₂O₇ / H₂SO₄`, `CrO₃ / H₂SO₄`, `KMnO₄ / H₂SO₄`) will over-oxidize primary alcohols to **carboxylic acids**.
 
@@ -130,9 +136,6 @@ Strong oxidizing agents (`K₂Cr₂O₇ / H₂SO₄`, `CrO₃ / H₂SO₄`, `KMn
 
 Any of the above oxidizing agents (including PCC) can be used. Secondary alcohols oxidize to ketones without over-oxidation.
 
-```smiles
-R1R2CHOH.[O]>>R1R2C=O
-```
 
 > [!example] Example: Oxidation of secondary alcohol
 > 3-tert-butylcyclohexanol → 3-tert-butylcyclohexanone (`CC(C)(C)C1CCCC(=O)C1`)
@@ -151,36 +154,22 @@ $$R'CH=CR_2 \xrightarrow[\text{H}_2\text{O / Zn}]{\text{O}_3} R'CHO + R_2C=O$$
 A good method for preparing aromatic ketones:
 Benzene reacts with an acyl chloride in the presence of `AlCl₃` (Lewis acid catalyst) to give an aromatic ketone, HCl, and regenerate `AlCl₃`.
 Reference comparison (comparable MW):
-```smiles
-# Cyanohydrin formation
-R1R2C=O.HC#N>>R1R2C(O)C#N
-```
 
 #### b) Addition of Grignard Reagents
 - Formation of alcohols
 - Primary, secondary, tertiary alcohol formation
 
-```smiles
-R1C(=O)R2.C[Mg]Br>>R1C(R2)([O-])C.[Mg+]Br
-```
 
 #### c) Addition of Alcohols
 - Acetal and ketal formation
 - Protecting groups
 - Cyclic acetals
 
-```smiles
-RC=O.CO.CO>>RC(OC)OC.O
-RC=O.OCCO>>RC1OCCO1.O
-```
 
 #### d) Addition of Bisulfite
 - Bisulfite addition compounds
 - Purification applications
 
-```smiles
-RC=O.[Na+].[O-]S(=O)O>>RC(O)S(=O)([O-])O.[Na+]
-```
 
 ### 5. Addition-Elimination Reactions
 
@@ -191,13 +180,6 @@ RC=O.[Na+].[O-]S(=O)O>>RC(O)S(=O)([O-])O.[Na+]
 - 2,4-DNP test (orange/red precipitate)
 - Imine/Schiff base formation (primary amines)
 
-```smiles
-R1R2C=O.NO>>R1R2C=NO.O
-R1R2C=O.NN>>R1R2C=NN.O
-R1R2C=O.NNc1ccccc1>>R1R2C=NNc1ccccc1.O
-R1R2C=O.NNc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]>>R1R2C=NNc1ccc([N+](=O)[O-])cc1[N+](=O)[O-].O
-R1R2C=O.NR3>>R1R2C=NR3.O
-```
 
 ### 6. Oxidation and Reduction
 
@@ -207,9 +189,6 @@ R1R2C=O.NR3>>R1R2C=NR3.O
 - Tollens' test (silver mirror)
 - Fehling's/Benedict's test (brick-red precipitate)
 
-```smiles
-RC=O.[O]>>RC(=O)O
-```
 
 #### Reduction:
 - Aldehydes → Primary alcohols
@@ -217,12 +196,6 @@ RC=O.[O]>>RC(=O)O
 - Clemmensen reduction
 - Wolff-Kishner reduction
 
-```smiles
-RC=O.[H]>>RCO
-R1R2C=O.[H]>>R1R2CO
-RC(=O)R1.[Zn].Cl>>RCR1
-RC(=O)R1.NN.[OH-]>>RCR1.N#N.O
-```
 
 ### 7. Aldol Condensation
 - Self-condensation of aldehydes/ketones
@@ -231,10 +204,13 @@ RC(=O)R1.NN.[OH-]>>RCR1.N#N.O
 
 ```smiles
 CC=O.CC=O.[OH-]>>CC(O)CC=O
+```
+```smiles
 CC(O)CC=O>>CC=CC=O.O
+```
+```smiles
 c1ccccc1C=O.CC=O.[OH-]>>c1ccccc1C=CC=O.O
 ```
-
 ### 8. Cannizzaro Reaction
 - Disproportionation of non-enolizable aldehydes
 - Base-catalyzed redox reaction
@@ -242,7 +218,6 @@ c1ccccc1C=O.CC=O.[OH-]>>c1ccccc1C=CC=O.O
 ```smiles
 c1ccccc1C=O.c1ccccc1C=O.[OH-]>>c1ccccc1C(=O)[O-].c1ccccc1CO
 ```
-
 ### 9. Haloform Reaction
 - Iodoform test for methyl ketones
 - Yellow precipitate of CHI₃
@@ -250,7 +225,6 @@ c1ccccc1C=O.c1ccccc1C=O.[OH-]>>c1ccccc1C(=O)[O-].c1ccccc1CO
 ```smiles
 CC(=O)C.I[I-]I.[OH-]>>CC(=O)[O-].[I-].CI(I)I
 ```
-
 ### 10. Identification Tests Summary
 | Test | Aldehydes | Ketones |
 |------|-----------|---------|

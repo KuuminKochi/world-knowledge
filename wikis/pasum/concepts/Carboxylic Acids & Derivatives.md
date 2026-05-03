@@ -48,10 +48,13 @@ Organic compounds containing the carboxyl group (-COOH) and their functional gro
 
 ```smiles
 CC(=O)O
+```
+```smiles
 O=C(O)c1ccccc1
+```
+```smiles
 O=C(O)c1ccccc1O
 ```
-
 ## Carboxylic Acid Derivatives
 
 ### Reactivity Order
@@ -67,9 +70,10 @@ Acyl Chloride > Acid Anhydride > Ester > Carboxylic Acid > Amide
 
 ```smiles
 CC(=O)Cl
+```
+```smiles
 O=C(Cl)c1ccccc1
 ```
-
 #### Reactions
 - With alcohols → Esters
 - With amines → Amides
@@ -84,10 +88,13 @@ O=C(Cl)c1ccccc1
 
 ```smiles
 CC(=O)OC(C)=O
+```
+```smiles
 O=C1OC(=O)c2ccccc21
+```
+```smiles
 O=C1CCC(=O)O1
 ```
-
 #### Reactions
 - Similar to acyl chlorides but milder
 - Cyclic anhydrides from dicarboxylic acids
@@ -99,10 +106,13 @@ R-COOH + R'-OH ⇌ R-COOR' + H₂O (acid catalyst)
 
 ```smiles
 CC(=O)OCC
+```
+```smiles
 O=C(OC)c1ccccc1
+```
+```smiles
 CC(=O)Oc1ccccc1
 ```
-
 #### Reactions
 - **Hydrolysis** (acidic or basic/saponification)
 - **Reduction** (LiAlH₄ → two alcohols)
@@ -118,10 +128,13 @@ CC(=O)Oc1ccccc1
 
 ```smiles
 CC(=O)N
+```
+```smiles
 O=C(N)c1ccccc1
+```
+```smiles
 CC(=O)N(C)C
 ```
-
 #### Reactions
 - **Hydrolysis** (acidic or basic)
 - **Dehydration** (P₂O₅ → nitrile)

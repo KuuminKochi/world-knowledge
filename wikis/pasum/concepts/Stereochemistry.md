@@ -65,7 +65,6 @@ OC[C@@H](O)C=O
 ```smiles
 C[C@@H](N)C(=O)O
 ```
-
 **Enantiomeric excess (ee):**
 $$
 ee = \frac{\text{Observed rotation}}{\text{Specific rotation of pure enantiomer}}
@@ -100,7 +99,6 @@ $$
 ```smiles
 CCC(C)Cl
 ```
-
 **Enantiomers with explicit R/S notation (`@` / `@@`):**
 - (R)-2-Chlorobutane:
 ```smiles
@@ -110,7 +108,6 @@ CC[C@@H](C)Cl
 ```smiles
 CC[C@H](C)Cl
 ```
-
 ## Stereoisomers with Multiple Chiral Centres
 
 Maximum number of stereoisomers = **2ⁿ**, where n = number of chiral centres.
@@ -126,17 +123,14 @@ Maximum number of stereoisomers = **2ⁿ**, where n = number of chiral centres.
 ```smiles
 O=CC(Br)C(Cl)CC
 ```
-
 **Cyclic example — 1-fluoro-2-methylcyclobutane (4 stereoisomers, no meso):**
 ```smiles
 CC1CCC1F
 ```
-
 **Cyclic example — 1,2-dimethylcyclobutane (3 stereoisomers, one meso):**
 ```smiles
 CC1CCC1C
 ```
-
 ## Meso Compounds
 
 - Molecules with multiple chiral centers that are achiral overall
@@ -148,7 +142,6 @@ CC1CCC1C
 ```smiles
 CC[C@H](C)[C@@H](C)CC
 ```
-
 ## Geometric (Cis-Trans) Isomerism
 
 ### Alkenes (E/Z Nomenclature)
@@ -164,7 +157,6 @@ C/C=C/C
 ```smiles
 C/C=C\C
 ```
-
 ### Cyclic Compounds
 - Cis: Substituents on same side of ring
 - Trans: Substituents on opposite sides of ring

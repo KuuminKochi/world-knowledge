@@ -47,11 +47,9 @@ Lectures 1-2 on Electrochemistry for FAD1018 Basic Chemistry II. Source file: `L
 ```smiles
 [Zn+2]
 ```
-
 ```smiles
 [Cu+2]
 ```
-
 ---
 
 ## 2. Redox Reactions in Electrochemical Cells
@@ -93,27 +91,21 @@ $$ \text{Anode} \mid \text{Anode electrolyte} \parallel \text{Cathode electrolyt
 ```smiles
 BrBr
 ```
-
 ```smiles
 ClCl
 ```
-
 ```smiles
 [Cl-]
 ```
-
 ```smiles
 [Sc+3]
 ```
-
 ```smiles
 [H+]
 ```
-
 ```smiles
 [H][H]
 ```
-
 ---
 
 ## 4. Standard Electrode Potential (E°)

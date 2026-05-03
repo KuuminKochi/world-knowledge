@@ -38,25 +38,45 @@ Week 7 lecture (62 slides) on alcohols and phenols. Lecturer: Dr Ahmad Danial Az
 - Alcohols are functional isomers of ethers ($\text{R-O-R}$).
   - Example: ethanol ($\text{CH}_3\text{CH}_2\text{-OH}$) and dimethyl ether ($\text{CH}_3\text{-O-CH}_3$).
   - ```smiles
-    ethanol: CCO
-    dimethyl ether: COC
+    CCO
+    ```
+  - ```smiles
+    COC
+    ```
 1. Determine the longest chain containing the hydroxyl group.
 Substituted phenols are named as derivatives of phenol.
     butan-2-ol: CCC(C)O
 When comparing boiling points across a series, consider (in order of dominance):
 ```smiles
-acetic acid: CC(=O)O
-phenol: c1ccccc1O
-2,2,2-trichloroethanol: ClC(Cl)(Cl)CO
-water: O
-2-chloroethanol: ClCCO
-methanol: CO
-ethanol: CCO
-isopropyl alcohol: CC(C)O
-tert-butyl alcohol: CC(C)(C)O
-cyclohexanol: C1CCCCC1O
+CC(=O)O
 ```
-
+```smiles
+c1ccccc1O
+```
+```smiles
+ClC(Cl)(Cl)CO
+```
+```smiles
+O
+```
+```smiles
+ClCCO
+```
+```smiles
+CO
+```
+```smiles
+CCO
+```
+```smiles
+CC(C)O
+```
+```smiles
+CC(C)(C)O
+```
+```smiles
+C1CCCCC1O
+```
 ### Basicity of Alcohols
 In the presence of strong acids, alcohol serves as a **weak base** (lone pairs on oxygen accept a proton).
 - Protonation is the first important step in several reactions of alcohols.
@@ -93,13 +113,20 @@ $$\text{PhOH (aq)} \rightleftharpoons \text{PhO}^- \text{(aq)} + \text{H}^+ \tex
 - 3-aminophenol ($pK_a = 9.82$): slightly more acidic than phenol because meta position does not enhance O electron density via resonance; the $-\text{NH}_2$ basicity can actually facilitate intramolecular proton abstraction.
 
 ```smiles
-2-nitrophenol: Oc1ccccc1[N+](=O)[O-]
-3-nitrophenol: Oc1cccc(c1)[N+](=O)[O-]
-4-nitrophenol: Oc1ccc(cc1)[N+](=O)[O-]
-4-aminophenol: Nc1ccc(O)cc1
-3-aminophenol: Nc1cccc(O)c1
+Oc1ccccc1[N+](=O)[O-]
 ```
-
+```smiles
+Oc1cccc(c1)[N+](=O)[O-]
+```
+```smiles
+Oc1ccc(cc1)[N+](=O)[O-]
+```
+```smiles
+Nc1ccc(O)cc1
+```
+```smiles
+Nc1cccc(O)c1
+```
 > [!tip] Explaining o-/m-/p- effects
 > Always draw resonance structures showing electron density on the carbon adjacent to the phenolic $-\text{OH}$. If that carbon carries +ve charge (EWG), acidity increases. If it carries −ve charge (EDG), acidity decreases.
 
@@ -267,10 +294,11 @@ Product: yellow precipitate of **triiodomethane** ($\text{CHI}_3$) + carboxylate
 - **2,4,6-tribromophenol**: white precipitate — used as **test for phenol**.
 
 ```smiles
-2,4,6-tribromophenol: Brc1cc(Br)c(O)c(Br)c1
-2,4,6-trinitrophenol: [O-][N+](=O)c1cc(c(O)c(c1)[N+](=O)[O-])[N+](=O)[O-]
+Brc1cc(Br)c(O)c(Br)c1
 ```
-
+```smiles
+[O-][N+](=O)c1cc(c(O)c(c1)[N+](=O)[O-])[N+](=O)[O-]
+```
 **Nitration**:
 - Dilute $\text{HNO}_3$ at room temperature: o-nitrophenol + p-nitrophenol (no catalyst needed).
 - Conc. $\text{HNO}_3$: 2,4,6-trinitrophenol (picric acid).

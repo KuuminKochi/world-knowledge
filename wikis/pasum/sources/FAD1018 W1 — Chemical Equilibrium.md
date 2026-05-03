@@ -50,11 +50,14 @@ Or, more generally:
 $$pH + pOH = pK_w$$
 
 ```smiles
-O                  # H2O (water)
-[OH3+]             # H3O+ (hydronium)
-[OH-]              # OH- (hydroxide)
+O
 ```
-
+```smiles
+[OH3+]
+```
+```smiles
+[OH-]
+```
 ---
 
 ## Ionic Product of Water ($K_w$)
@@ -135,9 +138,8 @@ $$(C_0 - x) \approx C_0$$
 ### Example: Nitrous Acid ($HNO_2$)
 
 ```smiles
-O=NO              # HNO2 (nitrous acid)
+O=NO
 ```
-
 Calculate the molarity of $H_3O^+$ in **0.1 M $HNO_2$** ($K_a = 5 \times 10^{-4}$):
 
 | | $HNO_2$ | $H_3O^+$ | $NO_2^-$ |
@@ -155,10 +157,11 @@ $$pH = -\log(7.07 \times 10^{-3}) = 2.15$$
 ### Example: Ethanoic Acid ($CH_3COOH$)
 
 ```smiles
-CC(=O)O           # CH3COOH (ethanoic / acetic acid)
-CC(=O)[O-]        # CH3COO- (acetate)
+CC(=O)O
 ```
-
+```smiles
+CC(=O)[O-]
+```
 Given **1.0 M $CH_3COOH$** with $K_a = 1.8 \times 10^{-5}$:
 
 - $pK_a = -\log(1.8 \times 10^{-5}) = 4.74$
@@ -182,10 +185,11 @@ $$pK_b = -\log K_b$$
 ### Example: Ammonia ($NH_3$)
 
 ```smiles
-N                  # NH3 (ammonia)
-[NH4+]             # NH4+ (ammonium)
+N
 ```
-
+```smiles
+[NH4+]
+```
 What is the pH of **0.40 M ammonia**? ($K_b = 1.8 \times 10^{-5}$)
 
 | | $NH_3$ | $NH_4^+$ | $OH^-$ |
@@ -204,9 +208,8 @@ $$pH = 14 - 2.57 = 11.43$$
 ### Example: Aniline ($C_6H_5NH_2$)
 
 ```smiles
-Nc1ccccc1          # C6H5NH2 (aniline)
+Nc1ccccc1
 ```
-
 Given **0.1 M aniline** with $K_b = 3.8 \times 10^{-10}$:
 
 - $pK_b = -\log(3.8 \times 10^{-10}) = 9.42$
@@ -248,10 +251,11 @@ The degree of dissociation is **inversely proportional** to the square root of t
    $$pH = -\log(0.01) = 2$$
 
 ```smiles
-O=[N+]([O-])O      # HNO3 (nitric acid)
-Cl                 # HCl (hydrochloric acid)
+O=[N+]([O-])O
 ```
-
+```smiles
+Cl
+```
 ### Strong Base pH Calculations
 
 1. **0.05 M potassium hydroxide ($KOH$)**:
@@ -263,10 +267,11 @@ Cl                 # HCl (hydrochloric acid)
    $$[OH^-] = 10^{-0.5} = 0.32 \text{ M}$$
 
 ```smiles
-[K+].[OH-]         # KOH (potassium hydroxide)
-[Na+].[OH-]        # NaOH (sodium hydroxide)
+[K+].[OH-]
 ```
-
+```smiles
+[Na+].[OH-]
+```
 ### Mixed Calculations
 
 1. **Coffee with $[OH^-] = 2.5 \times 10^{-9}$ mol dm⁻³**:
@@ -304,13 +309,20 @@ Cl                 # HCl (hydrochloric acid)
    - $pH = 2.41$
 
 ```smiles
-F                  # HF (hydrofluoric acid)
-[F-]               # F- (fluoride)
-O=CO               # HCOOH (formic acid)
-Oc1ccccc1          # C6H5OH (phenol)
-[O-]c1ccccc1       # C6H5O- (phenoxide)
+F
 ```
-
+```smiles
+[F-]
+```
+```smiles
+O=CO
+```
+```smiles
+Oc1ccccc1
+```
+```smiles
+[O-]c1ccccc1
+```
 7. **0.5 M phenol ($C_6H_5OH$, $K_a = 1.3 \times 10^{-10}$)**:
    - $[H_3O^+] = 8.06 \times 10^{-6}$ M
    - $pH = 5.09$
@@ -329,11 +341,14 @@ Oc1ccccc1          # C6H5OH (phenol)
    - $pOH = 1.64$, $pH = 12.36$
 
 ```smiles
-CNC                # (CH3)2NH (dimethylamine)
-CN                 # CH3NH2 (methylamine)
-c1ccncc1           # C5H5N (pyridine)
+CNC
 ```
-
+```smiles
+CN
+```
+```smiles
+c1ccncc1
+```
 4. **0.26 M methylamine ($CH_3NH_2$, $K_b = 4.4 \times 10^{-4}$)**:
    - $[OH^-] = 1.05 \times 10^{-2}$ M
    - $pOH = 1.98$, $pH = 12.02$

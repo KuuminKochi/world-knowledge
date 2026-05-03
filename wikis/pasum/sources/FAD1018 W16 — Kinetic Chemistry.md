@@ -97,7 +97,6 @@ N#N
 ```smiles
 N
 ```
-
 $$N_2(g) + 3H_2(g) \longrightarrow 2NH_3(g)$$
 
 $$\text{Rate} = -\frac{d[N_2]}{dt} = -\frac{1}{3}\frac{d[H_2]}{dt} = +\frac{1}{2}\frac{d[NH_3]}{dt}$$
@@ -119,7 +118,6 @@ I
 ```smiles
 II
 ```
-
 Given: $2HI \longrightarrow H_2 + I_2$
 
 $$\text{rate} = -\frac{1}{2}\frac{d[HI]}{dt} = \frac{d[H_2]}{dt} = \frac{d[I_2]}{dt}$$
@@ -148,7 +146,6 @@ $$-\frac{d[HI]}{dt} = 2 \times (1.8 \times 10^{-6}) = 3.6 \times 10^{-6} \text{ 
 ```smiles
 [Ag]
 ```
-
 Chemical equation: $Zn + 2AgNO_3 \longrightarrow Zn(NO_3)_2 + 2Ag$
 
 $$\text{rate} = -\frac{d[Zn]}{dt} = -\frac{1}{2}\frac{d[Ag^+]}{dt} = \frac{d[Zn^{2+}]}{dt} = \frac{1}{2}\frac{d[Ag]}{dt}$$
@@ -177,7 +174,6 @@ O=O
 ```smiles
 O
 ```
-
 $$4NH_3(g) + 5O_2(g) \longrightarrow 4NO(g) + 6H_2O(l)$$
 
 $$\text{Rate} = -\frac{1}{4}\frac{d[NH_3]}{dt} = -\frac{1}{5}\frac{d[O_2]}{dt} = +\frac{1}{4}\frac{d[NO]}{dt} = +\frac{1}{6}\frac{d[H_2O]}{dt}$$
@@ -236,7 +232,6 @@ O=Cl=O
 ```smiles
 O=Cl(=O)F
 ```
-
 $$F_2(g) + 2ClO_2(g) \longrightarrow 2FClO_2(g)$$
 
 Given rate law: $\text{Rate} = k[F_2]^1[ClO_2]^1$
@@ -258,7 +253,6 @@ O=O
 ```smiles
 O=[N+]([O-])[O-]
 ```
-
 $$2NO(g) + O_2(g) \longrightarrow 2NO_2(g)$$
 
 Given rate law: $\text{rate} = k[NO]^2[O_2]^1$
@@ -283,7 +277,6 @@ OO
 ```smiles
 O
 ```
-
 $$H_2O_2(aq) + 3I^-(aq) + 2H^+(aq) \longrightarrow I_3^-(aq) + 2H_2O(l)$$
 
 Given rate law: $\text{Rate} = k[H_2O_2]^1[I^-]^1$
@@ -305,12 +298,17 @@ Given rate law: $\text{Rate} = k[H_2O_2]^1[I^-]^1$
 Reaction: S₂O₈²⁻(aq) + 3I⁻(aq) → 2SO₄²⁻(aq) + I₃⁻(aq)
 
 ```smiles
-O=S(=O)([O-])OOS(=O)(=O)[O-]  # S2O8^2- (peroxodisulfate)
-[I-]                           # I- (iodide)
-[O-]S(=O)(=O)[O-]             # SO4^2- (sulfate)
-I[I-]I                         # I3- (triiodide)
+O=S(=O)([O-])OOS(=O)(=O)[O-]
 ```
-
+```smiles
+[I-]
+```
+```smiles
+[O-]S(=O)(=O)[O-]
+```
+```smiles
+I[I-]I
+```
 Experimental data:
 | Exp | [S₂O₈²⁻] | [I⁻] | Initial Rate (M s⁻¹) |
 |-----|----------|------|----------------------|
@@ -337,11 +335,14 @@ $$x = 3$$
 Decomposition of N₂O₅ at 45°C (first order):
 
 ```smiles
-O=[N+]([O-])O[N+](=O)[O-]  # N2O5 (dinitrogen pentoxide)
-O=[N]O                      # NO2 (nitrogen dioxide)
-O=O                         # O2 (oxygen)
+O=[N+]([O-])O[N+](=O)[O-]
 ```
-
+```smiles
+O=[N]O
+```
+```smiles
+O=O
+```
 $$2N_2O_5(g) \longrightarrow 4NO_2(g) + O_2(g)$$
 
 Rate = k[N₂O₅]
@@ -478,9 +479,8 @@ $$\frac{1}{[A]_t} = kt + \frac{1}{[A]_0}$$
 #### Example 1: Zero-Order Decomposition of H₂O₂
 
 ```smiles
-OO  # H₂O₂ (hydrogen peroxide)
+OO
 ```
-
 For the zero-order decomposition of H₂O₂ (aq):
 - $k = 3.66 \times 10^{-3}\ \text{Ms}^{-1}$
 - $[H_2O_2]_0 = 0.88\ \text{M}$
@@ -525,10 +525,11 @@ $$t = 214.52\ \text{min}$$
 #### Example 4: Second-Order Iodine Atom Recombination
 
 ```smiles
-[I]       # I (iodine atom)
-[I][I]    # I₂ (molecular iodine)
+[I]
 ```
-
+```smiles
+[I][I]
+```
 Iodine atoms combine in the gas phase:
 $$I(g) + I(g) \longrightarrow I_2(g)$$
 
@@ -601,9 +602,8 @@ $$t_{1/2} = \frac{1}{k[A]_0}$$
 #### Example 1: Half-Life of N₂O₅
 
 ```smiles
-O=[N+]([O-])O[N+](=O)[O-]  # N₂O₅ (dinitrogen pentoxide)
+O=[N+]([O-])O[N+](=O)[O-]
 ```
-
 What is the half-life of N₂O₅ if it decomposes with $k = 5.7 \times 10^{-4}\ \text{s}^{-1}$?
 
 First-order reaction:
@@ -714,12 +714,17 @@ Energy profile diagram labels:
 - $AB^{\#}$ — activated complex at the peak
 
 ```smiles
-[C-]#[O+]          # CO (carbon monoxide)
-N(=O)[O]           # NO2 (nitrogen dioxide)
-O=C=O              # CO2 (carbon dioxide)
-[N]=O              # NO (nitric oxide)
+[C-]#[O+]
 ```
-
+```smiles
+N(=O)[O]
+```
+```smiles
+O=C=O
+```
+```smiles
+[N]=O
+```
 ### 18. Transition State Theory (Pages 65–67)
 
 **Transition State:** The configuration of atoms of the colliding species at the time of the collision.
@@ -740,12 +745,17 @@ O=C=O              # CO2 (carbon dioxide)
 Hydroxide + Bromomethane → **Transition State (imaginary)** → Methanol + Bromide
 
 ```smiles
-[OH-]              # Hydroxide ion
-CBr                # Bromomethane (CH3Br)
-CO                 # Methanol (CH3OH)
-[Br-]              # Bromide ion
+[OH-]
 ```
-
+```smiles
+CBr
+```
+```smiles
+CO
+```
+```smiles
+[Br-]
+```
 ### 19. Energy Profile Diagrams (Pages 68–69)
 
 > [!warning] Selalu keluar exam — Always appears in exams
@@ -960,7 +970,6 @@ Reaction:
 ```smiles
 CC(=O)C.II>>CC(=O)CI.I
 ```
-
 (CH₃COCH₃(aq) + I₂(aq) → ICH₂COCH₃(aq) + HI(aq))
 
 Rate constant = 1.8 × 10⁻³ M s⁻¹ (zero order overall — concentration not a factor)
@@ -1000,7 +1009,6 @@ Decomposition of hydrogen iodide:
 ```smiles
 I.I>>[H][H].[I][I]
 ```
-
 (2HI(g) → H₂(g) + I₂(g))
 
 Data for plotting ln k vs 1/T:

@@ -22,13 +22,22 @@ The carbonyl carbon is sp² hybridized with trigonal planar geometry:
 
 ```smiles
 C=O
+```
+```smiles
 CC=O
+```
+```smiles
 CC(=O)C
+```
+```smiles
 c1ccccc1C=O
+```
+```smiles
 O=C1CCCCC1
+```
+```smiles
 CC(=O)c1ccccc1
 ```
-
 ## Aldehydes vs Ketones
 
 | Feature | Aldehydes | Ketones |
@@ -175,19 +184,15 @@ Many biologically important molecules contain aldehyde or ketone groups:
 ```smiles
 COc1cc(C=O)ccc1O
 ```
-
 ```smiles
 O=CC=Cc1ccccc1
 ```
-
 ```smiles
 CC12CCC(CC1=O)C2(C)C
 ```
-
 ```smiles
 CC1=CC[C@@H](C(C)C)CC1=O
 ```
-
 - **Aldehydes** generally have **pungent odors**
 - **Ketones** tend to smell **sweet**
 
@@ -214,7 +219,6 @@ Monosaccharides (simple sugars) are carbonyl compounds that cannot be hydrolyzed
 ```smiles
 O=C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO
 ```
-
 - Polyhydroxyaldehyde
 - In solution, forms a cyclic **hemiacetal** via intramolecular nucleophilic attack of the C₅ hydroxyl on the C₁ aldehyde
 - **Reducing sugar**: the hemiacetal ring can open to expose the free aldehyde, which is oxidized by Tollens' or Benedict's reagent
@@ -224,7 +228,6 @@ O=C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO
 ```smiles
 O=C(CO)C(O)C(O)C(O)CO
 ```
-
 - Polyhydroxy ketone
 - Forms a cyclic **hemiacetal** via intramolecular attack of the C₅ hydroxyl on the C₂ ketone
 - Also a **reducing sugar** (hemiacetal-reducing sugar)
@@ -248,25 +251,58 @@ O=C(CO)C(O)C(O)C(O)CO
 
 ```smiles
 CCC=O
+```
+```smiles
 CCC(=O)C
+```
+```smiles
 CC(Br)C=O
+```
+```smiles
 CC(Cl)CC=O
+```
+```smiles
 CC(C)CC=O
+```
+```smiles
 O=CCCCCC=O
+```
+```smiles
 CC1CCCCC1C=O
+```
+```smiles
 c1ccccc1C=O
+```
+```smiles
 CC(=O)C
+```
+```smiles
 CCC(=O)CCC
+```
+```smiles
 O=C1CCCCC1
+```
+```smiles
 CC(=O)C(=O)C
+```
+```smiles
 CC(=O)CC(=O)C
+```
+```smiles
 CC(=O)CC=CC
+```
+```smiles
 CC(=O)c1ccccc1
+```
+```smiles
 CCCC(=O)c1ccccc1
+```
+```smiles
 CC(=O)Cc1ccccc1
+```
+```smiles
 CC(C)(C)C1CCCC(=O)C1
 ```
-
 ## Related Topics
 - [[Alcohol & Phenol]] — Precursors and reduction products
 - [[Carboxylic Acids & Derivatives]] — Oxidation products of aldehydes

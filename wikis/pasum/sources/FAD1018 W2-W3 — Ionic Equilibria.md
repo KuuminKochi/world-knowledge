@@ -44,7 +44,6 @@ Weeks 2–3 lectures covering ionic equilibria, acids and bases. Source files: `
 ```smiles
 Cl
 ```
-
 ## 2. Applications of Ionic Equilibria
 
 ### Electrolytes
@@ -92,19 +91,15 @@ Key ions:
 ```smiles
 CC(=O)O
 ```
-
 ```smiles
 O=C(O)CC(O)(CC(=O)O)C(=O)O
 ```
-
 ```smiles
 OS(=O)(=O)O
 ```
-
 ```smiles
 O[N+](=O)[O-]
 ```
-
 ### Common Bases
 
 | Name | Formula | Occurrence/Uses |
@@ -118,19 +113,15 @@ O[N+](=O)[O-]
 ```smiles
 [Na+].[OH-]
 ```
-
 ```smiles
 [K+].[OH-]
 ```
-
 ```smiles
 [Na+].OC(=O)[O-]
 ```
-
 ```smiles
 [Na+].[Na+].[O-]C([O-])=O
 ```
-
 ## 4. Theories of Acid and Base
 
 There are three main theories relating to acids and bases:
@@ -252,7 +243,6 @@ Proposed by **G. N. Lewis** (1938).
 ```smiles
 Cl[Al](Cl)Cl
 ```
-
 **Base (Lewis base):**
 - Is an atom, ion or molecule that **donates a pair of electrons** to form a coordinate covalent bond
 - **Nucleophile** (usually -ve charge)
@@ -264,11 +254,9 @@ $$\text{NH}_3 + \text{BF}_3 \rightarrow \text{adduct}$$
 ```smiles
 FB(F)F
 ```
-
 ```smiles
 N
 ```
-
 $$\text{H}_3\text{C-NH}_2 + \text{BH}_3 \rightarrow \text{H}_3\text{C-NH}_2-BH}_3$$
 
 $$\text{H}_3\text{C-NH}_2 + \text{HCl} \rightarrow \text{H}_3\text{C-NH}_3\text{Cl}$$
@@ -370,15 +358,12 @@ $$\text{H}_2\text{SO}_4\text{(aq)} + \text{H}_2\text{O}(l) \rightleftharpoons \t
 ```smiles
 Br
 ```
-
 ```smiles
 OCl(=O)(=O)=O
 ```
-
 ```smiles
 I
 ```
-
 - The molarities of H⁺ or H₃O⁺ ions are high for strong acids.
 - pH 1 – very acidic
 - Low pH means high molarities of H⁺ or H₃O⁺ ions
@@ -394,11 +379,9 @@ $$\text{HCl(aq)} \rightarrow \text{H}^+\text{(aq)} + \text{Cl}^-\text{(aq)}$$
 ```smiles
 [Mg+2].[OH-].[OH-]
 ```
-
 ```smiles
 [Ca+2].[OH-].[OH-]
 ```
-
 - The molarities of OH⁻ are high for strong bases.
 - pH 14 – very basic
 - High pH means high molarities of OH⁻ ion
@@ -415,15 +398,12 @@ $$\text{NaOH(aq)} \rightarrow \text{Na}^+\text{(aq)} + \text{OH}^-\text{(aq)}$$
 ```smiles
 C#N
 ```
-
 ```smiles
 O=NO
 ```
-
 ```smiles
 F
 ```
-
 - The system exists as an equilibrium between the un-dissociated acid and the dissociated ions.
 
 $$\text{HA}_{\text{(aq)}} + \text{H}_2\text{O}_{(\ell)} \rightleftharpoons \text{A}^-_{\text{(aq)}} + \text{H}_3\text{O}^+_{\text{(aq)}}$$
@@ -447,15 +427,12 @@ $$K_a = \frac{[\text{H}_3\text{O}^+][\text{A}^-]}{[\text{HA}]}$$
 ```smiles
 [NH4+].[OH-]
 ```
-
 ```smiles
 CN
 ```
-
 ```smiles
 c1ccncc1
 ```
-
 - The system exists as an equilibrium between the un-dissociated base and the dissociated ions.
 
 $$\text{NH}_3\text{(aq)} + \text{H}_2\text{O}(\ell) \rightleftharpoons \text{NH}_4^+\text{(aq)} + \text{OH}^-\text{(aq)}$$
@@ -492,27 +469,21 @@ $$K_b = \frac{[\text{NH}_4^+][\text{OH}^-]}{[\text{NH}_3]}$$
 ```smiles
 O=CO
 ```
-
 ```smiles
 CC(=O)Oc1ccccc1C(=O)O
 ```
-
 ```smiles
 OC1=C(O)C(=O)OC1C(O)CO
 ```
-
 ```smiles
 O=C(O)c1ccccc1
 ```
-
 ```smiles
 Oc1ccccc1
 ```
-
 ```smiles
 OCl
 ```
-
 **Table 4: Values of $K_b$ for some common bases**
 
 | Name of Base | Formula | $K_b$ |
@@ -529,23 +500,18 @@ OCl
 ```smiles
 CCN
 ```
-
 ```smiles
 Nc1ccccc1
 ```
-
 ```smiles
 CN1C=NC2=C1C(=O)N(C(=O)N2C)C
 ```
-
 ```smiles
 NC(=O)N
 ```
-
 ```smiles
 [O-]C([O-])=O
 ```
-
 ### 6.6 Acid and Base Strength Exercises
 
 **Exercise 1:** Arrange the following acids in the order of increasing acid strength: Aspirin, formic acid, phenol, vitamin C and nitrous acid.
@@ -628,12 +594,19 @@ $$\text{NaCl}_{(aq)} \rightarrow \text{Na}^+_{(aq)} + \text{Cl}^-_{(aq)}$$
 
 ```smiles
 [Na+].[Cl-]
+```
+```smiles
 [K+].[Br-]
+```
+```smiles
 [K+].[I-]
+```
+```smiles
 [Rb+].[Br-]
+```
+```smiles
 [Ba+2].[Cl-].[Cl-]
 ```
-
 From ionic theory, cancelling common ions leaves $\text{H}_2\text{O} \rightleftharpoons \text{H}^+ + \text{OH}^-$, so $[\text{H}^+] = [\text{OH}^-]$.
 
 ### Acidic Salts (SA-WB)
@@ -652,9 +625,10 @@ $$\text{NH}_4^+_{(aq)} + \text{H}_2\text{O}_{(l)} \rightleftharpoons \text{NH}_{
 
 ```smiles
 [NH4+].[Cl-]
+```
+```smiles
 [NH4+].[O-][N+](=O)[O-]
 ```
-
 #### Worked Example: pH of 0.20 M NH₄Cl
 Given $K_b$ for NH₃ = $1.8 \times 10^{-5}$:
 
@@ -674,9 +648,10 @@ Given $K_b$ for NH₃ = $1.8 \times 10^{-5}$:
 
 ```smiles
 [NH3+]N.[Cl-]
+```
+```smiles
 C[NH3+].[O-][N+](=O)[O-]
 ```
-
 ### Basic Salts (SB-WA)
 Formed from weak acid + strong base. pH > 7.
 
@@ -693,9 +668,10 @@ $$\text{CH}_3\text{COO}^-_{(aq)} + \text{H}_2\text{O}_{(l)} \rightleftharpoons \
 
 ```smiles
 CC(=O)[O-].[Na+]
+```
+```smiles
 [K+].[O-]N=O
 ```
-
 #### Worked Example: pH of Sodium Benzoate Solution
 0.05 mol C₆H₅COONa dissolved in 100 cm³ volumetric flask. $K_a$ for C₆H₅COOH = $6.5 \times 10^{-5}$.
 
@@ -713,7 +689,6 @@ CC(=O)[O-].[Na+]
 ```smiles
 O=C([O-])c1ccccc1.[Na+]
 ```
-
 #### Practice Problems (Basic Salts)
 - Calculate pH of 0.15 M CH₃COONa ($K_a$ for CH₃COOH = $1.8 \times 10^{-5}$)
 - Calculate pH of 0.24 M HCOOK ($K_a$ for HCOOH = $1.7 \times 10^{-4}$)
@@ -721,9 +696,10 @@ O=C([O-])c1ccccc1.[Na+]
 
 ```smiles
 O=C[O-].[K+]
+```
+```smiles
 [K+].[O-]Cl
 ```
-
 ### Salts of Weak Acid & Weak Base (WA-WB)
 Both cation and anion hydrolyse in water. The salt may be neutral, acidic, or basic depending on relative $K_a$ and $K_b$:
 
@@ -738,26 +714,33 @@ Both cation and anion hydrolyse in water. The salt may be neutral, acidic, or ba
 ```smiles
 O=C([O-])c1ccccc1.[NH4+]
 ```
-
 **Example:** CH₃COONH₄ (ammonium ethanoate) is a **neutral salt** because $K_a$ for CH₃COOH ($1.8 \times 10^{-5}$) = $K_b$ for NH₃ ($1.8 \times 10^{-5}$).
 
 ```smiles
 CC(=O)[O-].[NH4+]
 ```
-
 **Prediction Exercise:**
 Predict whether solutions of the following salts are acidic, basic, or neutral:
 (a) NH₄I, (b) CaCl₂, (c) KCN, (d) NaClO₄, (e) CH₃NH₃Br, (f) HCOOK
 
 ```smiles
 [NH4+].[I-]
+```
+```smiles
 [Ca+2].[Cl-].[Cl-]
+```
+```smiles
 [K+].[C-]#N
+```
+```smiles
 [Na+].[O-]Cl(=O)(=O)=O
+```
+```smiles
 C[NH3+].[Br-]
+```
+```smiles
 O=C[O-].[K+]
 ```
-
 ## Links
 - [[Ionic Equilibria]]
 - [[Arrhenius Theory]]

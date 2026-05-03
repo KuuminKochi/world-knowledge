@@ -57,41 +57,32 @@ Week 3 extra lecture covering acid-base titrations in detail. Source file: `W3 (
 | Phenolphthalein | Colourless | Pink | 8.3 – 10.0 |
 
 ```smiles
-O=C1OC(C2=CC=CC=C2)(C2=CC=CC=C2)C2=CC=C(O)C=C12  # Phenolphthalein (acid form, colourless)
+O=C1OC(C2=CC=CC=C2)(C2=CC=CC=C2)C2=CC=C(O)C=C12
 ```
-
 ```smiles
-O=C1OC(C2=CC=CC=C2)(C2=CC=CC=C2)C2=CC=C([O-])C=C12  # Phenolphthalein (base form, pink)
+O=C1OC(C2=CC=CC=C2)(C2=CC=CC=C2)C2=CC=C([O-])C=C12
 ```
-
 ```smiles
-O=S1(=O)OC(c2ccccc12)(c3cc(C(C)C)c(O)cc3C)c4cc(C(C)C)c(O)cc4C  # Thymol blue
+O=S1(=O)OC(c2ccccc12)(c3cc(C(C)C)c(O)cc3C)c4cc(C(C)C)c(O)cc4C
 ```
-
 ```smiles
-O=S1(=O)OC(c2ccccc12)(c3cc(Br)c(O)c(Br)c3)c4cc(Br)c(O)c(Br)c4  # Bromophenol blue
+O=S1(=O)OC(c2ccccc12)(c3cc(Br)c(O)c(Br)c3)c4cc(Br)c(O)c(Br)c4
 ```
-
 ```smiles
-CN(C)c1ccc(cc1)N=Nc2ccc(cc2)S(=O)(=O)[O-].[Na+]  # Methyl orange
+CN(C)c1ccc(cc1)N=Nc2ccc(cc2)S(=O)(=O)[O-].[Na+]
 ```
-
 ```smiles
-CN(C)c1ccc(cc1)N=Nc2ccccc2C(=O)O  # Methyl red
+CN(C)c1ccc(cc1)N=Nc2ccccc2C(=O)O
 ```
-
 ```smiles
-O=S1(=O)OC(c2ccccc12)(c3cc(Cl)c(O)c(Cl)c3)c4cc(Cl)c(O)c(Cl)c4  # Chlorophenol blue
+O=S1(=O)OC(c2ccccc12)(c3cc(Cl)c(O)c(Cl)c3)c4cc(Cl)c(O)c(Cl)c4
 ```
-
 ```smiles
-O=S1(=O)OC(c2ccccc12)(c3c(C)c(Br)c(O)c(C(C)C)c3)c4c(C)c(Br)c(O)c(C(C)C)c4  # Bromothymol blue
+O=S1(=O)OC(c2ccccc12)(c3c(C)c(Br)c(O)c(C(C)C)c3)c4c(C)c(Br)c(O)c(C(C)C)c4
 ```
-
 ```smiles
-O=S1(=O)OC(c2ccccc12)(c3ccc(O)c(C)c3)c4ccc(O)c(C)c4  # Cresol red
+O=S1(=O)OC(c2ccccc12)(c3ccc(O)c(C)c3)c4ccc(O)c(C)c4
 ```
-
 ---
 
 ## Types of Acid-Base Titrations
@@ -117,21 +108,17 @@ Four theoretical types; lecture covers three (WA-WB crossed out as not covered):
 **Example system:** NaOH(aq) + HCl(aq) → NaCl(aq) + H₂O(l)
 
 ```smiles
-[Na+].[OH-]       # NaOH (sodium hydroxide)
+[Na+].[OH-]
 ```
-
 ```smiles
-Cl                # HCl (hydrochloric acid)
+Cl
 ```
-
 ```smiles
-[Na+].[Cl-]       # NaCl (sodium chloride)
+[Na+].[Cl-]
 ```
-
 ```smiles
-O                 # H2O (water)
+O
 ```
-
 ### Titration Curve Characteristics
 - Equivalence point at **pH = 7.0** (neutral salt)
 - Steep pH change around equivalence
@@ -179,13 +166,11 @@ $$pH = -\log(0.013) = 1.88$$
 **Example system:** CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l)
 
 ```smiles
-CC(=O)O           # CH3COOH (acetic acid)
+CC(=O)O
 ```
-
 ```smiles
-CC(=O)[O-].[Na+]  # CH3COONa (sodium acetate)
+CC(=O)[O-].[Na+]
 ```
-
 ### Titration Curve Characteristics
 - Equivalence point at **pH > 7** (basic salt — anion hydrolyzes)
 - Buffer zone before equivalence point
@@ -257,13 +242,11 @@ $$pH = 14 - 1.95 = 12.05$$
 **Example system:** NH₃(aq) + HCl(aq) → NH₄Cl(aq)
 
 ```smiles
-N                 # NH3 (ammonia)
+N
 ```
-
 ```smiles
-[Cl-].[NH4+]         # NH4Cl (ammonium chloride)
+[Cl-].[NH4+]
 ```
-
 ### Titration Curve Characteristics
 - Equivalence point at **pH < 7** (acidic salt — cation hydrolyzes)
 - Buffer zone before equivalence point

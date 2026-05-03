@@ -20,7 +20,7 @@ CC(=O)OC1=CC=CC=C1C(=O)O
 ```
 ````
 
-Each line contains one SMILES string. The data is plain text — portable and future-proof.
+Each line must contain exactly one valid SMILES string — no labels, comments, or markdown inside the code block. Labels and descriptions go outside. The data is plain text — portable and future-proof.
 
 **Inline syntax** (requires enabling in Settings → Chem → Inline Render):
 
@@ -136,7 +136,7 @@ Use **lowercase** letters for aromatic atoms:
 
 ### Critical: Do NOT Put Markdown Inside `smiles` Blocks
 
-The Chem plugin renders **every line** inside a `smiles` code block as a SMILES string. If you put markdown headings, comments, lists, tables, or callouts inside the block, they are fed to the SMILES parser and cause **SyntaxError**.
+The Chem plugin renders **every line** inside a `smiles` code block as a SMILES string. Labels, comments, headings, and any markdown must stay **outside** the block — inside, every line must be exactly one valid SMILES string. If you put markdown inside the block, the SMILES parser will reject it with a **SyntaxError**.
 
 > [!danger] This causes SyntaxError
 > ```smiles
@@ -149,7 +149,7 @@ The Chem plugin renders **every line** inside a `smiles` code block as a SMILES 
 > ```
 > The plugin tries to render `# Primary amine: methylamine` as SMILES — `#` means triple bond, so it fails. The `*italic*` text also fails because `*` is a wildcard atom followed by text.
 
-**Correct approach** — keep only SMILES strings inside the block, and put labels outside:
+**Correct approach** — labels go outside, only SMILES inside:
 
 ```smiles
 CN

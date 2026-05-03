@@ -52,11 +52,9 @@ $$ \text{Anode} \mid \text{Anode electrolyte} \parallel \text{Cathode electrolyt
 ```smiles
 BrBr
 ```
-
 ```smiles
 ClCl
 ```
-
 ## Standard Electrode Potential (E°)
 
 The potential of a half-cell under standard conditions (1 M solutions, 1 atm gases, 25°C).
@@ -67,7 +65,6 @@ Reference electrode with $E° = 0.00$ V: $2\text{H}^+(aq) + 2e^- \rightarrow \te
 ```smiles
 [H][H]
 ```
-
 ### Standard Cell Potential (E°cell)
 
 $$ E°_{cell} = E°_{cathode} - E°_{anode} $$

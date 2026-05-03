@@ -52,45 +52,53 @@ A solution that maintains its pH when a small amount of an acid or a base is add
 **Common buffer systems:**
 
 ```smiles
-CC(=O)O          # CH3COOH (acetic acid)
-CC(=O)[O-]       # CH3COO- (acetate)
+CC(=O)O
 ```
-
 ```smiles
-N                # NH3 (ammonia)
-[NH4+]           # NH4+ (ammonium)
+CC(=O)[O-]
 ```
-
 ```smiles
-O=CO             # HCOOH (formic acid)
-O=C[O-]          # HCOO- (formate)
+N
 ```
-
 ```smiles
-F                # HF (hydrofluoric acid)
-[F-]             # F- (fluoride)
+[NH4+]
 ```
-
 ```smiles
-CN               # CH3NH2 (methylamine)
-C[NH3+]          # CH3NH3+ (methylammonium)
+O=CO
 ```
-
 ```smiles
-S                # H2S (hydrogen sulfide)
-[SH-]            # HS- (hydrosulfide)
+O=C[O-]
 ```
-
 ```smiles
-C(=O)([O-])[O-]  # CO3^2- (carbonate)
-O=C(O)[O-]       # HCO3- (bicarbonate)
+F
 ```
-
 ```smiles
-O=P([O-])(O)O    # H2PO4- (dihydrogen phosphate)
-O=P([O-])([O-])O # HPO4^2- (hydrogen phosphate)
+[F-]
 ```
-
+```smiles
+CN
+```
+```smiles
+C[NH3+]
+```
+```smiles
+S
+```
+```smiles
+[SH-]
+```
+```smiles
+C(=O)([O-])[O-]
+```
+```smiles
+O=C(O)[O-]
+```
+```smiles
+O=P([O-])(O)O
+```
+```smiles
+O=P([O-])([O-])O
+```
 ### Buffer Action
 
 **Acidic buffer (CH₃COOH / CH₃COO⁻):**

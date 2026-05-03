@@ -100,11 +100,14 @@ $$pH + pOH = 14 \quad \text{where} \quad pH = -\log[H^+], \quad pOH = -\log[OH^-
 > | 100 | $5.1 \times 10^{-13}$ |
 
 ```smiles
-O                  # H2O
-[OH3+]             # H3O+
-[OH-]              # OH-
+O
 ```
-
+```smiles
+[OH3+]
+```
+```smiles
+[OH-]
+```
 ### Degree of Dissociation ($\alpha$)
 
 For weak acids and weak bases that only partially dissociate:
@@ -173,20 +176,41 @@ For weak acid/base equilibrium calculations, use an ICE (Initial, Change, Equili
 ### Example Species
 
 ```smiles
-CC(=O)O           # CH3COOH (ethanoic acid)
-CC(=O)[O-]        # CH3COO- (acetate)
-N                  # NH3 (ammonia)
-[NH4+]             # NH4+ (ammonium)
-F                  # HF (hydrofluoric acid)
-[F-]               # F- (fluoride)
-O=CO               # HCOOH (formic acid)
-Oc1ccccc1          # C6H5OH (phenol)
-Nc1ccccc1          # C6H5NH2 (aniline)
-CNC                # (CH3)2NH (dimethylamine)
-CN                 # CH3NH2 (methylamine)
-c1ccncc1           # C5H5N (pyridine)
+CC(=O)O
 ```
-
+```smiles
+CC(=O)[O-]
+```
+```smiles
+N
+```
+```smiles
+[NH4+]
+```
+```smiles
+F
+```
+```smiles
+[F-]
+```
+```smiles
+O=CO
+```
+```smiles
+Oc1ccccc1
+```
+```smiles
+Nc1ccccc1
+```
+```smiles
+CNC
+```
+```smiles
+CN
+```
+```smiles
+c1ccncc1
+```
 ## Related Topics
 - [[Ionic Equilibria]] — Extended ionic equilibrium concepts (buffers, salt hydrolysis)
 - [[Solubility Product]] — Equilibrium of sparingly soluble salts

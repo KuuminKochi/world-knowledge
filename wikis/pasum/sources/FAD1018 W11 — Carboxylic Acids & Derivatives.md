@@ -21,26 +21,32 @@ Study of carboxylic acids, acid chlorides, acid anhydrides, esters, and amides i
 
 - [[Carboxylic Acids & Derivatives]] — R-COOH and related functional groups
 ```smiles
-O=CO          formic acid
-CC(=O)O       acetic acid
-c1ccccc1C(=O)O  benzoic acid
+O=CO
+```
+```smiles
+CC(=O)O
+```
+```smiles
+c1ccccc1C(=O)O
 ```
 - Acyl Chlorides — R-COCl (most reactive derivatives)
 ```smiles
-CC(=O)Cl      acetyl chloride
+CC(=O)Cl
 ```
 - Acid Anhydrides — (RCO)₂O
 ```smiles
-CC(=O)OC(=O)C      acetic anhydride
+CC(=O)OC(=O)C
 ```
 - Esters — R-COOR'
 ```smiles
-CC(=O)OC       methyl acetate
-CC(=O)OCC      ethyl acetate
+CC(=O)OC
+```
+```smiles
+CC(=O)OCC
 ```
 - Amides — R-CONH₂
 ```smiles
-CC(=O)N        acetamide
+CC(=O)N
 ```
 - Nucleophilic Acyl Substitution — Characteristic reaction
 
@@ -56,7 +62,7 @@ CC(=O)N        acetamide
 #### Physical Properties
 - Hydrogen bonding (dimer formation)
 ```smiles
-CC(=O)O...O=C(C)O       acetic acid dimer
+CC(=O)O
 ```
 - Higher boiling points than comparable alcohols
 - Water solubility (lower members)
@@ -66,7 +72,7 @@ CC(=O)O...O=C(C)O       acetic acid dimer
 - Inductive effects
 - Resonance stabilization of carboxylate anion
 ```smiles
-CC(=O)[O-]      acetate anion (resonance-stabilized)
+CC(=O)[O-]
 ```
 - Substituent effects (electron-withdrawing increases acidity)
 
@@ -75,27 +81,27 @@ CC(=O)[O-]      acetate anion (resonance-stabilized)
 - Oxidation of aldehydes
 - Hydrolysis of nitriles
 ```smiles
-CC#N.O>>CC(=O)O.N       nitrile hydrolysis
+CC#N.O>>CC(=O)O.N
 ```
 - Carboxylation of Grignard reagents
 ```smiles
-C[Mg]Br.O=C=O>>CC(=O)[O-].[Mg+2].[Br-]  Grignard carboxylation
+C[Mg]Br.O=C=O>>CC(=O)[O-].[Mg+2].[Br-]
 ```
-
 ### 3. Reactions of Carboxylic Acids
 
 #### a) Salt Formation
 - Reaction with bases
 - Soap formation
 ```smiles
-CC(=O)O.[OH-]>>CC(=O)[O-].O           acid + base → salt
-CC(=O)[O-].[Na+]                        sodium acetate (soap type)
+CC(=O)O.[OH-]>>CC(=O)[O-].O
 ```
-
+```smiles
+CC(=O)[O-].[Na+]
+```
 #### b) Reduction
 - LiAlH₄ reduction to primary alcohols
 ```smiles
-CC(=O)O>>CCO              carboxylic acid → primary alcohol
+CC(=O)O>>CCO
 ```
 - Borane (BH₃) reduction
 
@@ -103,11 +109,14 @@ CC(=O)O>>CCO              carboxylic acid → primary alcohol
 - Loss of CO₂
 - β-Keto acids and malonic acid derivatives
 ```smiles
-CC(=O)CC(=O)O      acetoacetic acid (β-keto acid)
-O=C(O)CC(=O)O      malonic acid
-CC(=O)CC(=O)O>>CC(C)=O.O=C=O    decarboxylation → acetone + CO₂
+CC(=O)CC(=O)O
 ```
-
+```smiles
+O=C(O)CC(=O)O
+```
+```smiles
+CC(=O)CC(=O)O>>CC(C)=O.O=C=O
+```
 ### 4. Carboxylic Acid Derivatives
 
 #### Reactivity Order:
@@ -116,9 +125,13 @@ Acyl Chloride > Acid Anhydride > Ester ~ Carboxylic Acid > Amide
 #### a) Acyl Chlorides (Acid Chlorides)
 - Preparation: Carboxylic acid + SOCl₂, PCl₅, or PCl₃
 ```smiles
-CC(=O)O.S(Cl)(Cl)=O>>CC(=O)Cl.S(=O)=O.Cl     SOCl₂ preparation
-CC(=O)Cl.CCO>>CC(=O)OCC.Cl                    + alcohol → ester
-CC(=O)Cl.N>>CC(=O)N.Cl                         + amine → amide
+CC(=O)O.S(Cl)(Cl)=O>>CC(=O)Cl.S(=O)=O.Cl
+```
+```smiles
+CC(=O)Cl.CCO>>CC(=O)OCC.Cl
+```
+```smiles
+CC(=O)Cl.N>>CC(=O)N.Cl
 ```
 - Reactions: With alcohols, amines, water, Gilman reagents
 - Most reactive derivative
@@ -128,19 +141,22 @@ CC(=O)Cl.N>>CC(=O)N.Cl                         + amine → amide
 - Reactions: Similar to acyl chlorides but milder
 - Cyclic anhydrides (succinic, maleic, phthalic)
 ```smiles
-O=C1CCC(=O)O1           succinic anhydride
-O=C1C=CC(=O)O1          maleic anhydride
-O=C1OC(=O)c2ccccc12     phthalic anhydride
+O=C1CCC(=O)O1
 ```
-
+```smiles
+O=C1C=CC(=O)O1
+```
+```smiles
+O=C1OC(=O)c2ccccc12
+```
 #### c) Esters
 - Preparation: Fischer esterification (acid + alcohol)
 ```smiles
-CC(=O)O.CCO>>CC(=O)OCC.O          Fischer esterification
+CC(=O)O.CCO>>CC(=O)OCC.O
 ```
 - Reactions: Hydrolysis (acidic and basic/saponification)
 ```smiles
-CC(=O)OCC.[OH-]>>CC(=O)[O-].CCO    saponification
+CC(=O)OCC.[OH-]>>CC(=O)[O-].CCO
 ```
 - Transesterification
 - Reduction to alcohols
@@ -149,19 +165,20 @@ CC(=O)OCC.[OH-]>>CC(=O)[O-].CCO    saponification
 #### d) Amides
 - Preparation: Acyl chloride + ammonia/amine, or ester + ammonia
 ```smiles
-CC(=O)Cl.N>>CC(=O)N.Cl              acyl chloride + ammonia
-CC(=O)OCC.N>>CC(=O)N.CCO            ester + ammonia
+CC(=O)Cl.N>>CC(=O)N.Cl
+```
+```smiles
+CC(=O)OCC.N>>CC(=O)N.CCO
 ```
 - Reactions: Hydrolysis (acidic and basic)
 - Dehydration to nitriles
 ```smiles
-CC(=O)N>>CC#N.O                      amide dehydration → nitrile
+CC(=O)N>>CC#N.O
 ```
 - Hofmann rearrangement
 ```smiles
-CC(=O)N.Br.[OH-]>>CN.O=C=O.Br-      Hofmann → primary amine
+CC(=O)N.Br.[OH-]>>CN.O=C=O.Br-
 ```
-
 ### 5. Interconversion of Derivatives
 ```
 Carboxylic Acid → Acyl Chloride → Ester → Amide
@@ -184,18 +201,13 @@ CC(=O)N.Br.[OH-]>>CN.O=C=O.Br-
 ```
 - Gabriel Synthesis (from phthalimide)
 ```smiles
-O=C1NC(=O)c2ccccc12        phthalimide
+O=C1NC(=O)c2ccccc12
 ```
-
 ## Related Topics
 
 - [[Carbonyl Compounds]] — Precursors to carboxylic acids
 - [[Amines & Amino Acids]] — Form amides with carboxylic acids
 - [[Polymer Chemistry]] — Polyesters and polyamides
-```smiles
-*C(=O)*OCCO*                polyester repeating unit
-*C(=O)*N*N*                 polyamide repeating unit
-```
 
 ## Study Notes
 

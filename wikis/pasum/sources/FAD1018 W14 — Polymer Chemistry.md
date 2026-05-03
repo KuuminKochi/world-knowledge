@@ -47,7 +47,6 @@ All standard amino acids contain:
 ```smiles
 N[C@@H](R)C(=O)O
 ```
-
 > **Note:** Glycine is the only achiral standard amino acid (R = H).
 
 ### The 20 Standard Amino Acids
@@ -82,7 +81,6 @@ In aqueous solution, amino acids exist predominantly as **zwitterions** — dipo
 ```smiles
 [NH3+]CC(=O)[O-]
 ```
-
 - **Zwitterion**: A molecule with equal positive and negative charges simultaneously.
 - **Isoelectric point (pI)**: The pH at which the amino acid has **no net charge** (exists mainly as the zwitterion).
 
@@ -111,13 +109,11 @@ Amino acids are linked by **peptide bonds** (amide bonds) formed via a **condens
 ```smiles
 NCC(=O)O.NCC(=O)O>>NCC(=O)NCC(=O)O
 ```
-
 Generic peptide bond between two amino acid residues:
 
 ```smiles
 N[C@@H](R1)C(=O)N[C@@H](R2)C(=O)O
 ```
-
 - The bond forms between the **α-carboxyl group** of one amino acid and the **α-amino group** of the next.
 - **Not** between the side chains (R groups).
 
@@ -152,13 +148,11 @@ Peptides are named from the **N-terminus** to the **C-terminus**.
 ```smiles
 CC(N)C(=O)NCC(=O)NC(C)C(=O)O
 ```
-
 **Ala-Cys** (dipeptide):
 
 ```smiles
 CC(N)C(=O)NC(CS)C(=O)O
 ```
-
 ## 3. Proteins
 
 ### Definition
@@ -207,9 +201,8 @@ Proteins can be hydrolyzed back to amino acids by:
 ### Example: Polyethene
 
 ```smiles
-C=C                          ; ethene (monomer)
+C=C
 ```
-
 ## Classification
 
 ### By Number of Monomer Types
@@ -218,9 +211,8 @@ C=C                          ; ethene (monomer)
 Polymers made up from only **one type** of monomer.
 
 ```smiles
-F/C(F)=C(F)/F                ; tetrafluoroethylene (Teflon monomer)
+F/C(F)=C(F)/F
 ```
-
 **Example — Teflon (PTFE)**:
 - Monomer: Tetrafluoroethylene
 - Polymer: Polytetrafluoroethylene (Teflon)
@@ -273,9 +265,8 @@ Formed when linear or branched polymer chains are joined together by **covalent 
 #### Example 1: Polyethene (PE)
 
 ```smiles
-C=C                          ; ethene
+C=C
 ```
-
 **Low-Density Polyethylene (LDPE)** — Recycling code 4
 - Discovered 1933 by ICI
 - Conditions: 1200 atm, 200°C, O₂ — free radical mechanism
@@ -291,36 +282,32 @@ C=C                          ; ethene
 #### Example 2: Polyvinyl chloride (PVC)
 
 ```smiles
-C=CCl                        ; chloroethene (vinyl chloride)
+C=CCl
 ```
-
 - Monomer: Chloroethene
 - Uses: Pipes
 
 #### Example 3: Polystyrene (PS)
 
 ```smiles
-c1ccccc1C=C                  ; phenylethene (styrene)
+c1ccccc1C=C
 ```
-
 - Monomer: Phenylethene (styrene)
 - Uses: Food packaging (foam containers)
 
 #### Example 4: Polytetrafluoroethylene (PTFE, Teflon)
 
 ```smiles
-F/C(F)=C(F)/F                ; tetrafluoroethylene
+F/C(F)=C(F)/F
 ```
-
 - Monomer: Tetrafluoroethylene
 - Uses: Non-stick coatings, thread seal tape
 
 #### Example 5: Polypropylene (PP)
 
 ```smiles
-C=CC                         ; propene
+C=CC
 ```
-
 - Monomer: Propene
 - Due to methyl groups, polymeric chains can have different structures
 - Presence of CH₃ increases intermolecular van der Waals forces but makes chain difficult to pack → lower density but higher melting point
@@ -329,9 +316,8 @@ C=CC                         ; propene
 #### Example 6: Synthetic Rubber — Neoprene
 
 ```smiles
-C=C(Cl)C=C                   ; 2-chloro-1,3-butadiene (chloroprene)
+C=C(Cl)C=C
 ```
-
 - First synthetic rubber produced by polymerization of 2-chloro-1,3-butadiene
 - Resistant to most chemicals
 - Uses: Hoses for petrol, containers for corrosive liquids
@@ -357,29 +343,30 @@ C=C(Cl)C=C                   ; 2-chloro-1,3-butadiene (chloroprene)
 **Example 1: Nylon 6,6**
 
 ```smiles
-NCCCCCCN                     ; hexane-1,6-diamine
-O=C(O)CCCCC(=O)O             ; hexane-1,6-dioic acid (adipic acid)
+NCCCCCCN
 ```
-
+```smiles
+O=C(O)CCCCC(=O)O
+```
 - Monomers: Hexane-1,6-diamine + hexane-1,6-dioic acid
 - By-product: **nH₂O**
 
 **Example 2: Nylon 6**
 
 ```smiles
-NCCCCCC(=O)O                 ; 6-aminohexanoic acid
+NCCCCCC(=O)O
 ```
-
 - Monomer: 6-aminohexanoic acid
 - By-product: **nH₂O**
 
 **Example 3: Kevlar**
 
 ```smiles
-Nc1ccc(N)cc1                 ; 1,4-diaminobenzene
-O=C(O)c1ccc(C(=O)O)cc1       ; terephthalic acid
+Nc1ccc(N)cc1
 ```
-
+```smiles
+O=C(O)c1ccc(C(=O)O)cc1
+```
 - Monomers: 1,4-diaminobenzene + terephthalic acid
 - Properties: Very strong and flexible
 - Uses: Bulletproof vests
@@ -392,10 +379,11 @@ O=C(O)c1ccc(C(=O)O)cc1       ; terephthalic acid
 **Example 1: Dacron (PET)**
 
 ```smiles
-COC(=O)c1ccc(C(=O)OC)cc1     ; dimethyl terephthalate
-OCCO                         ; 1,2-ethanediol (ethylene glycol)
+COC(=O)c1ccc(C(=O)OC)cc1
 ```
-
+```smiles
+OCCO
+```
 - Monomers: Dimethyl terephthalate + ethylene glycol
 - By-product: **Methanol** (nCH₃OH)
 - Uses: Clothing, tyre cords, carpets
@@ -403,10 +391,11 @@ OCCO                         ; 1,2-ethanediol (ethylene glycol)
 **Example 2: Terylene**
 
 ```smiles
-O=C(O)c1ccc(C(=O)O)cc1       ; benzene-1,4-dicarboxylic acid (terephthalic acid)
-OCCO                         ; ethane-1,2-diol (ethylene glycol)
+O=C(O)c1ccc(C(=O)O)cc1
 ```
-
+```smiles
+OCCO
+```
 - Monomers: Terephthalic acid + ethane-1,2-diol
 - By-product: **Water** (nH₂O)
 
@@ -477,9 +466,8 @@ Polymer properties can be deliberately modified by:
 - Poly(isoprene) exists in two forms: **cis** and **trans** depending on relative spatial arrangement of the two -CH₂ groups
 
 ```smiles
-CC(=C)C=C                    ; isoprene (2-methyl-1,3-butadiene)
+CC(=C)C=C
 ```
-
 #### Vulcanization
 - Natural rubber is soft, sticky, not strong or elastic
 - To improve properties, it undergoes **vulcanization process**

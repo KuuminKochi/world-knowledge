@@ -38,7 +38,7 @@ Dissolution and precipitation of ionic compounds are **heterogeneous reactions**
 **Dissolving (ionization/dissociation):**
 
 ```smiles
-[Ag+].[Cl-] 
+[Ag+].[Cl-]
 ```
 $$\text{AgCl}(s) \rightleftharpoons \text{Ag}^+(aq) + \text{Cl}^-(aq)$$
 
