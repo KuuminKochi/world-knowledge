@@ -156,25 +156,19 @@
     </div>
 
     <script>
-    document.querySelectorAll('pre > code.language-smiles, code.language-smiles').forEach(block => {
-        const pre = block.closest('pre') || block;
-        const smiles = block.textContent.trim();
+    var smilesDrawer = new SmilesDrawer({ width: 500, height: 200 });
+    document.querySelectorAll('pre > code.language-smiles, code.language-smiles').forEach(function(block) {
+        var pre = block.closest('pre') || block;
+        var smiles = block.textContent.trim();
         if (!smiles) return;
-        const canvas = document.createElement('canvas');
+        var canvas = document.createElement('canvas');
         canvas.width = 500;
         canvas.height = 200;
         canvas.className = 'smiles-canvas';
-        try {
-            let drawer = new SmilesDrawer.Drawer({ width: 500, height: 200 });
-            let theme = 'light';
-            SmilesDrawer.parse(smiles,
-                tree => drawer.draw(tree, canvas, theme),
-                err => console.error('SMILES error:', err)
-            );
-            pre.replaceWith(canvas);
-        } catch(e) {
-            console.error('SMILES error:', e);
-        }
+        smilesDrawer.draw(smiles, canvas, 'light',
+            function() { pre.replaceWith(canvas); },
+            function(err) { console.error('SMILES draw error:', smiles, err); }
+        );
     });
     </script>
 </body>
