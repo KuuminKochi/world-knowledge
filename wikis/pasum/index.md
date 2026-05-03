@@ -9,7 +9,21 @@ tags:
   - level/pre-university
   - institution/pasum
 author: KuuminKochi
+skills:
+  - name: academic-wiki
+    purpose: "Navigate the PASUM knowledge graph interactively — browse concepts, follow links, and query topics across Mathematics, Physics, and Chemistry"
+    auto_offer: true
+  - name: problem-set-synthesis
+    purpose: "Generate interleaved practice problems that combine multiple PASUM subjects for deeper learning and exam preparation"
+    auto_offer: true
+  - name: grill-me
+    purpose: "Drill your understanding of any PASUM concept by having the AI stress-test your knowledge until you've mastered it"
+    auto_offer: true
 ---
+
+## Skills
+
+This wiki bundles 33 LLM skills that enhance AI-powered learning. Each skill is a self-contained folder with instructions and references. The most relevant skills for PASUM study are [[skills/academic-wiki/SKILL|academic-wiki]] (knowledge navigation), [[skills/problem-set-synthesis/SKILL|problem-set-synthesis]] (practice drills), and [[skills/grill-me/SKILL|grill-me]] (understanding stress-tests). Browse the full [[skills/|skills directory]] to see all 33. An AI assistant can load any of these to better help you study.
 
 # PASUM Mathematics, Physics & Chemistry
 
