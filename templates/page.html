@@ -165,8 +165,14 @@
         canvas.height = 200;
         canvas.className = 'smiles-canvas';
         SmilesDrawer.parse(smiles, function(tree) {
-            var drawer = new SmilesDrawer.Drawer({ width: 500, height: 200 });
-            drawer.draw(tree, canvas, 'light');
+            var svgDrawer = new SmilesDrawer.SvgDrawer({ width: 500, height: 200 });
+            var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg.setAttributeNS(null, 'width', 500);
+            svg.setAttributeNS(null, 'height', 200);
+            document.body.appendChild(svg);
+            svgDrawer.draw(tree, svg, 'light');
+            svgDrawer.svgWrapper.toCanvas(canvas, 500, 200);
+            document.body.removeChild(svg);
             pre.replaceWith(canvas);
         }, function(err) {
             console.error('SMILES parse error:', smiles, err);
