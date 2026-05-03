@@ -179,11 +179,17 @@ def build_slug_map_for_wiki(wiki_dir: Path, wiki_slug: str) -> dict[str, str]:
         name = md_file.name
         if name in ("index.md", "log.md"):
             continue
-        title = md_file.stem
-        slug = slugify(title, allow_unicode=True)
         # Determine section from parent directory
         rel = md_file.relative_to(wiki_dir)
         section = rel.parts[0] if len(rel.parts) > 1 else "pages"
+        
+        # SKILL.md files in skills/: use parent dir name as title
+        if section == "skills" and name == "SKILL.md":
+            title = md_file.parent.name
+        else:
+            title = md_file.stem
+        
+        slug = slugify(title, allow_unicode=True)
         key = f"{wiki_slug}/{title}"
         if key in seen:
             suffix = 2
@@ -224,16 +230,25 @@ def collect_wiki_pages(wiki_dir: Path, slug_map: dict[str, str], wiki_slug: str)
         if name in ("index.md", "log.md"):
             continue
 
-        title = md_file.stem
+        # Determine section from relative path
+        rel = md_file.relative_to(wiki_dir)
+        section = rel.parts[0] if len(rel.parts) > 1 else "pages"
+
+        # SKILL.md files: use parent dir name as title; skip other .md files in skills/ subdirs
+        if section == "skills":
+            if name == "SKILL.md":
+                title = md_file.parent.name
+            else:
+                continue  # skip nested files like agents/analyzer.md, references/schemas.md
+        else:
+            title = md_file.stem
+
         slug = slugify(title, allow_unicode=True)
         raw = md_file.read_text(encoding="utf-8", errors="replace")
         frontmatter, body = strip_frontmatter(raw)
         processed = process_markdown(body, slug_map, wiki_slug)
         html_content = md.render(processed)
 
-        # Determine section from relative path
-        rel = md_file.relative_to(wiki_dir)
-        section = rel.parts[0] if len(rel.parts) > 1 else "pages"
         url_path = f"{wiki_slug}/{section}/{slug}/"
 
         if url_path in seen_paths:
