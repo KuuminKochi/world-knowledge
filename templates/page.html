@@ -166,7 +166,7 @@
         canvas.className = 'smiles-canvas';
         try {
             let drawer = new SmilesDrawer.Drawer({ width: 500, height: 200 });
-            let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            let theme = 'light';
             SmilesDrawer.parse(smiles,
                 tree => drawer.draw(tree, canvas, theme),
                 err => console.error('SMILES error:', err)
